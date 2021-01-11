@@ -3,11 +3,15 @@ This is the web-based system to support members of parliament  to acquire views,
  and will be created by the team working approach.
 
 # Documentation
-Project Proposal
-Project staff members
-Functional Requirement 
-Non Functional Requirement
-Database design
-Project tasks
-Project plan 
-Project plan with critical path
+
+
+| S/N | Title                            |
+| ----| ---------------------------------|
+| 1   | Project Proposal                 |
+| 2   | Functional requirement           |
+| 3   | Non Functional requirement       |
+| 4   | Database design                  |
+| 5   | Project tasks                    |
+| 6   | Project plan with critical path  |
+| 7   | Implementation documentation     |
+
