@@ -12,6 +12,8 @@ This is the web-based system to support members of parliament  to acquire views,
 | 3   | Non Functional requirement       |
 | 4   | Database design                  |
 | 5   | Project tasks                    |
-| 6   | Project plan with critical path  |
-| 7   | Implementation documentation     |
+| 6   | Project risks and way to resolve |
+| 7   | Project dependencies             |
+| 8   | Project plan with critical path  |
+| 9   | Implementation documentation     |
 
