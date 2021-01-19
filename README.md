@@ -17,3 +17,11 @@ This is the web-based system to support members of parliament  to acquire views,
 | 8   | Project plan with critical path  |
 | 9   | Implementation documentation     |
 
+
+
+#CONTRIBUTION TO THIS REPOSITORY
+
+      clone project
+      create branch 
+      push your changes to the branch
+     create pull request.
