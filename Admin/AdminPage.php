@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>AdminPage</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/custom.css">
-	<link rel="stylesheet" type="text/js" href="js/bootstrap.js">
+	<link rel="stylesheet" type="text/css" href="/MPIS/MPIS/Assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="/MPIS/MPIS/Assets/css/custom.css">
+	<link rel="stylesheet" type="text/js" href="/MPIS/MPIS/Assets/js/bootstrap.js">
 </head>
 <body  >
 
@@ -56,7 +56,7 @@
 <div class="text-center p-3">
 	<footer class="footer">
       <div class="container">
-      	<span class="text-dark"> @ 2021 Copyright</span>
+      	<span class="text-dark"> <strong>MPIS </strong></strong>@ 2021 Copyright</span>
       </div>
     </footer>
 </div>
