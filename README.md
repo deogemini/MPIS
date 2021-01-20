@@ -19,9 +19,8 @@ This is the web-based system to support members of parliament  to acquire views,
 
 
 
-#CONTRIBUTION TO THIS REPOSITORY
-
-      clone project
-      create branch 
-      push your changes to the branch
-     create pull request.
+##CONTRIBUTION TO THIS REPOSITORY
+ - Clone project
+ - Create branch 
+ - Push your changes to the branch
+ - Create pull request.
