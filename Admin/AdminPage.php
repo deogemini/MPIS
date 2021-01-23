@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/MPIS/MPIS/Assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="/MPIS/MPIS/Assets/css/custom.css">
 	<link rel="stylesheet" type="text/js" href="/MPIS/MPIS/Assets/js/bootstrap.js">
+    <link rel="stylesheet" type="text/js" href="/MPIS/MPIS/Assets/css/bootstrap.min.css">
 </head>
 <body  >
 
@@ -37,11 +38,11 @@
 
       </nav>
   </div>
-<div class="d-flex" id="sidebar-wrapper" >
+<div class="d-flex" id="sidebar-wrapper">
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper" >
+    <div id="sidebar-wrapper" class="col-md-3" >
       <div class="list-group list-group-flush" style="background-color: #00FFFF" >
-        <a href="#" class="list-group-item list-group-item-action bg-light">Sajili Mbunge</a>
+        <a href="/MPIS/MPIS/Admin/SajiliJimbo.php" class="list-group-item list-group-item-action bg-light">Sajili Mbunge</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Sajili Jimbo</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Onesha Majimbo</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Onesha wabunge</a>
@@ -53,6 +54,8 @@
     </div>
 </div>
 
+
+<!----footer ---->
 <div class="text-center p-3">
 	<footer class="footer">
       <div class="container">
