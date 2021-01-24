@@ -1,6 +1,4 @@
-<?php
-include 'AdminPage.php';
-?>
+
 <!----footer ---->
 <div class="text-center p-3">
 	<footer class="footer">
@@ -9,6 +7,3 @@ include 'AdminPage.php';
       </div>
     </footer>
 </div>
-
-</body>
-</html>
