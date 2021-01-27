@@ -27,12 +27,18 @@
           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">WILAYA
   <span class="caret"></span>
  </button>
+
   <ul class="dropdown-menu">
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
     <li><a href="#">JavaScript</a></li>
   </ul>
     </div>
+     <div class="col">
+        <div class="form-outline">
+        <label class="form-label" >Idadi ya kata katika jimbo</label>
+        <input type="number" class="form-control" id="kata">
+      </div>
   </form>
 
 </div>
