@@ -20,7 +20,8 @@ This is the web-based system to support members of parliament  to acquire views,
 
 
 ##CONTRIBUTION TO THIS REPOSITORY
- - Clone project
- - Create branch 
+ - Clone project in ssh form
+ - Create new branch 
  - Push your changes to the branch
- - Create pull request.
+ - Create pull request
+ - wait for mreging status and code review to be performed
