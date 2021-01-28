@@ -12,9 +12,9 @@
       </div>
 
       <div class="col">
-        <div class= "form-outline">
-          <label class="form-label"> MKOA JIMBO LILIPO:</label>
-            <select name="mikoa" id="mikoa">
+        <div class= "form-check-inline">
+        <label class="col-md-6 col-form-label" >MKOA JIMBO LILIPO:</label>
+            <select name="mikoa" class="form-control form-control-lg col-md-8" id="mikoa">
               <option value="Dar es Salaam">Dar es Salaam</option>
               <option value="Iringa">Iringa</option>
               <option value="Kilimanjaro">Kilimanjaro</option>
@@ -44,9 +44,9 @@
         </div>
 </div> 
 <div class="col">
-        <div class= "form-outline">
-          <label class="form-label"> Wilaya Jimbo Lilipo</label>
-          <select name="wilaya" id="wilaya">
+<div class= "form-check-inline">
+        <label class="col-md-7 col-form-label" >WILAYA JIMBO LILIPO:</label>
+          <select name="wilaya"  class="form-control form-control-lg col-md-8"id="wilaya">
               <option value="Ilala">Ilala</option>
               <option value="Kinondoni">Kinondoni</option>
               <option value="Temeke">Temeke</option>
