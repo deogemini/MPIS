@@ -38,7 +38,7 @@
   </div>
 
   <div class="row mb-5">
-     <div class="col-md-3" style="min-height:100%">
+     <div class="col-md-3">
        <?php include 'layouts/sidebar.php' ?>
      </div>
      <div class="col-md-9">

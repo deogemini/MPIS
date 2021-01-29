@@ -103,6 +103,6 @@
 </div>
 <!--/ Main content End Here-->
 
-<?php include'layouts/common_base.php' ?>
+<?php include 'layouts/common_base.php' ?>
 
 
