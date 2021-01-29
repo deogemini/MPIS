@@ -7,14 +7,14 @@
       <div class="col">
       	<div class="form-outline">
         <label class="form-label" >Jina la jimbo</label>
-        <input type="text" class="form-control" id="jinalakwanza">
+        <input type="text" class="form-control" name="jinajimbo" required>
       </div>
       </div>
 
-      <div class="col">
-        <div class= "form-check-inline">
-        <label class="col-md-6 col-form-label" >MKOA JIMBO LILIPO:</label>
-            <select name="mikoa" class="form-control form-control-lg col-md-8" id="mikoa">
+      <div class="row py-2">
+         <div class="col-md-6">
+         <label class="form-label" >MKOA JIMBO LILIPO:</label>
+            <select name="mikoa" class="js-example-basic-single form-control" id="mikoa">
               <option value="Dar es Salaam">Dar es Salaam</option>
               <option value="Iringa">Iringa</option>
               <option value="Kilimanjaro">Kilimanjaro</option>
@@ -41,12 +41,10 @@
               <option value="Shinyanga">Shinyanga</option>
               <option value="Simiyu">Simiyu</option>
             </select>
-        </div>
-</div> 
-<div class="col">
-<div class= "form-check-inline">
-        <label class="col-md-7 col-form-label" >WILAYA JIMBO LILIPO:</label>
-          <select name="wilaya"  class="form-control form-control-lg col-md-8"id="wilaya">
+         </div>
+         <div class="col-md-6">
+         <label class="" >WILAYA JIMBO LILIPO:</label>
+          <select name="wilaya"  class="js-example-basic-single form-control"id="wilaya">
               <option value="Ilala">Ilala</option>
               <option value="Kinondoni">Kinondoni</option>
               <option value="Temeke">Temeke</option>
@@ -73,23 +71,26 @@
               <option value="Meatu">Meatu</option>
               <option value="Baridi">Baridi</option>
             </select>
-        </div>
-</div> 
+         </div>
+      </div> 
 
+ 
 
-     <div class="col">
-        <div class="form-outline">
-        <label class="form-label" >Idadi ya kata katika jimbo</label>
+     <div class="row py-3">
+    <div class="col-md-6"> 
+        <label >Idadi ya kata katika jimbo</label>
         <input type="number" class="form-control" id="kata">
       </div>
-
+     
+<div class="col-md-6">
       <button type="button" class="btn btn-success">Save details</button>
-
+     </div>
+     </div>
   </form>
 
 </div>
 <!--/ Main content End Here-->
 
-<?php include'layouts/common_base.php' ?>
+<?php include 'layouts/common_base.php' ?>
 
 
