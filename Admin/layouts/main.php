@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AdminPage</title>
+  <title>AdminPage</title>
+  <meta name="viewport" content="width=device-width, scale=1.0">
 	<link rel="stylesheet"  href="/MPIS/Assets/css/bootstrap.min.css">
-		<link rel="stylesheet"  href="/MPIS/Assets/css/custom.css">
-	<link rel="stylesheet"  href="/MPIS/Assets/js/bootstrap.min.js">
+    <link rel="stylesheet"  href="/MPIS/Assets/css/custom.css">
+    <link href="/MPIS/Assets/plugins/dist/css/select2.min.css" rel="stylesheet" />
+     
 </head>
 <body  >
 
@@ -35,8 +37,8 @@
       </nav>
   </div>
 
-  <div class="row">
-     <div class="col-md-3">
+  <div class="row mb-5">
+     <div class="col-md-3" style="min-height:100%">
        <?php include 'layouts/sidebar.php' ?>
      </div>
      <div class="col-md-9">
