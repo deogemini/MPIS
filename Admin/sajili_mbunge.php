@@ -3,28 +3,29 @@
 <!-- Main content Start Here -->
 <div class="main-content" data-spy = "scroll">
 	<h2> Sajili Mbunge</h2>
-    <form action="sajilijimbo.php" method="POST">
-      <div class="col">
+    <form action="sajilimbunge.php" method="POST">
+      <div class="row">
+      <div class="col-md-6">
       	<div class="form-outline">
         <label class="form-label" >Jina la Kwanza</label>
-        <input type="text" class="form-control" id="jinalakwanza">
+        <input type="text" class="form-control" name="jinalakwanza">
       </div>
       </div>
 
-       <div class="col">
+       <div class="col-md-6">
         <div class="form-outline">
         <label class="form-label" >Jina la Pili</label>
-        <input type="text" class="form-control" id="jinalakwanza">
+        <input type="text" class="form-control" name="jinalapili">
+      </div>
       </div>
       </div>
         <div class="col">
         <div class="form-outline">
         <label class="form-label" >Jina la Mwisho</label>
-        <input type="text" class="form-control" id="jinalakwanza">
+        <input type="text" class="form-control" name="jinalamwisho">
       </div>
       </div>
       <br>
-
       
       <div class="row">
         <div class="col-md-6 text-center">
@@ -42,12 +43,12 @@
      <div class="row">
       <div class="col-md-6">
       <label >Email ya Mbunge</label>
-        <input type="email" class="form-control" id="lgFormGroupInput" placeholder="you@example.com">
+        <input type="email" class="form-control" name="email" placeholder="you@example.com">
       </div>
 
     <div class="col-md-6">
   <label>Telephone</label>
-    <input class="form-control" type="tel" placeholder=" +255000000" id="example-tel-input">
+    <input class="form-control" type="tel" placeholder=" +255000000" name="telphone">
   </div>
 </div>
 
@@ -91,18 +92,12 @@
                 </div>
 </div>
 
-                <div class="form-check-inline">
-  <label for="example-password-input" class="col-4 col-form-label">Password</label>
-  <div class="col-8">
-    <input class="form-control" type="password" value="hunter2" id="example-password-input">
-  </div>
-</div>
-      <button type="button" class="btn btn-success">Save details</button>
+      <button type="button" class="btn btn-success" value="submit">Save details</button>
   </form>
 
 </div>
 <!--/ Main content End Here-->
 
-<?php include'layouts/common_base.php' ?>
+<?php include 'layouts/common_base.php' ?>
 
 
