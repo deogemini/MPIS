@@ -2,19 +2,21 @@
    
 <!-- Main content Start Here -->
 <div class="container">
-	<h2> Sajili Jimbo</h2>
+	<h2 style="text-decoration-skip: true;""> Sajili Jimbo</h2>
     <form action="sajilijimbo.php" method="POST">
-      <div class="col">
+      <div class="row">
+      <div class="col-md-12">
       	<div class="form-outline">
-        <label class="form-label" >Jina la jimbo</label>
+        <label>JINA LA JIMBO</label>
         <input type="text" class="form-control" name="jinajimbo" required>
+      </div>
       </div>
       </div>
 
       <div class="row py-2">
          <div class="col-md-6">
          <label class="form-label" >MKOA JIMBO LILIPO:</label>
-            <select name="mikoa" class="js-example-basic-single form-control" id="mikoa">
+            <select name="mikoa" class="js-example-basic-single form-control" >
               <option value="Dar es Salaam">Dar es Salaam</option>
               <option value="Iringa">Iringa</option>
               <option value="Kilimanjaro">Kilimanjaro</option>
@@ -43,8 +45,8 @@
             </select>
          </div>
          <div class="col-md-6">
-         <label class="" >WILAYA JIMBO LILIPO:</label>
-          <select name="wilaya"  class="js-example-basic-single form-control"id="wilaya">
+         <label >WILAYA JIMBO LILIPO:</label>
+          <select name="wilaya"  class="js-example-basic-single form-control">
               <option value="Ilala">Ilala</option>
               <option value="Kinondoni">Kinondoni</option>
               <option value="Temeke">Temeke</option>
@@ -74,16 +76,14 @@
          </div>
       </div> 
 
- 
-
      <div class="row py-3">
     <div class="col-md-6"> 
         <label >Idadi ya kata katika jimbo</label>
-        <input type="number" class="form-control" id="kata">
+        <input type="number" class="form-control" name="idadi">
       </div>
      
 <div class="col-md-6">
-      <button type="button" class="btn btn-success">Save details</button>
+      <button type="button" class="btn btn-success" value="submit">Save details</button>
      </div>
      </div>
   </form>
