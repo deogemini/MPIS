@@ -2,8 +2,17 @@
    
 <!-- Main content Start Here -->
 <div class="container">
-	<h2 style="text-decoration-skip: true;""> Sajili Jimbo</h2>
-    <form action="sajilijimbo.php" method="POST">
+	<h2 style="text-decoration-skip: true;"> Sajili Jimbo</h2>
+
+  <?php
+ 	session_start();
+ 	if(isset($_SESSION['success'])){
+ 		print("<p style='background-color: green;color:white;padding:10px 20px;'>".$_SESSION['success']."</p>");
+ 	}
+ 	session_destroy();
+ 	
+ 	?>
+    <form method="POST" action="sajilijimbo.php">
       <div class="row">
       <div class="col-md-12">
       	<div class="form-outline">
@@ -16,7 +25,7 @@
       <div class="row py-2">
          <div class="col-md-6">
          <label class="form-label" >MKOA JIMBO LILIPO:</label>
-            <select name="mikoa" class="js-example-basic-single form-control" required >
+            <select name="mkoa" class="js-example-basic-single form-control" required >
               <option value="Dar es Salaam">Dar es Salaam</option>
               <option value="Iringa">Iringa</option>
               <option value="Kilimanjaro">Kilimanjaro</option>
@@ -77,14 +86,14 @@
       </div> 
 
      <div class="row py-3">
-    <div class="col-md-6"> 
+       <div class="col-md-6"> 
         <label >Idadi ya kata katika jimbo</label>
-        <input type="number" class="form-control" name="idadi" required>
+        <input type="number" class="form-control" name="kata" required>
       </div>
      
-<div class="col-md-6">
-      <button type="button" class="btn btn-success" value="submit">Save details</button>
-     </div>
+       <div class="col-md-6">
+          <button name="submit" type="submit" class="btn btn-success">Save details</button>
+       </div>
      </div>
   </form>
 
