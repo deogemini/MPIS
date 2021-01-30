@@ -15,14 +15,14 @@
        <div class="col-md-6">
         <div class="form-outline">
         <label class="form-label" >Jina la Pili</label>
-        <input type="text" class="form-control" name="jinalapili">
+        <input type="text" name="jinalapili" class="form-control" name="jinalapili">
       </div>
       </div>
       </div>
         <div class="col">
         <div class="form-outline">
         <label class="form-label" >Jina la Mwisho</label>
-        <input type="text" class="form-control" name="jinalamwisho">
+        <input type="text" name="jinalamwisho" class="form-control" name="jinalamwisho">
       </div>
       </div>
       <br>
@@ -37,7 +37,7 @@
         </div>
           <div class="col-md-6">
             <label class="col-md-6">Birth date</label>
-              <input class="form-control" type="date" value="2011-08-19" id="startingdate">
+              <input class="form-control" type="date" name="birthdate" value="2011-08-19" id="startingdate">
             </div>
       </div>
      <div class="row">
@@ -83,16 +83,16 @@
                 
                     <div class="col-md-4">
                         <label>Starting date</label>
-                          <input class="form-control" type="date" value="2011-08-19" id="startingdate">
+                          <input class="form-control" type="date" value="2011-08-19" name="startingdate" id="startingdate">
                         </div>
     
                  <div class="col-md-4">
                     <label>Finishing date</label>
-                   <input class="form-control" type="date" value="2011-08-19" id="finishingdate">
+                   <input class="form-control" type="date" value="2011-08-19" name="finishdate" id="finishingdate">
                 </div>
 </div>
 
-      <button type="button" class="btn btn-success" value="submit">Save details</button>
+      <button type="submit" name="submit" class="btn btn-success" value="submit">Save details</button>
   </form>
 
 </div>
