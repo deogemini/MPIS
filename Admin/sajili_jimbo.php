@@ -4,14 +4,7 @@
 <div class="container">
 	<h2 style="text-decoration-skip: true;"> Sajili Jimbo</h2>
 
-  <?php
- 	session_start();
- 	if(isset($_SESSION['success'])){
- 		print("<p style='background-color: green;color:white;padding:10px 20px;'>".$_SESSION['success']."</p>");
- 	}
- 	session_destroy();
- 	
- 	?>
+
     <form method="POST" action="sajilijimbo.php">
       <div class="row">
       <div class="col-md-12">
