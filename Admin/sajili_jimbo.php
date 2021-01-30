@@ -8,7 +8,7 @@
       <div class="col-md-12">
       	<div class="form-outline">
         <label>JINA LA JIMBO</label>
-        <input type="text" class="form-control" name="jinajimbo" required>
+        <input type="text" class="form-control" name="jinalajimbo" required>
       </div>
       </div>
       </div>
@@ -16,7 +16,7 @@
       <div class="row py-2">
          <div class="col-md-6">
          <label class="form-label" >MKOA JIMBO LILIPO:</label>
-            <select name="mikoa" class="js-example-basic-single form-control" >
+            <select name="mikoa" class="js-example-basic-single form-control" required >
               <option value="Dar es Salaam">Dar es Salaam</option>
               <option value="Iringa">Iringa</option>
               <option value="Kilimanjaro">Kilimanjaro</option>
@@ -46,7 +46,7 @@
          </div>
          <div class="col-md-6">
          <label >WILAYA JIMBO LILIPO:</label>
-          <select name="wilaya"  class="js-example-basic-single form-control">
+          <select name="wilaya"  class="js-example-basic-single form-control" required>
               <option value="Ilala">Ilala</option>
               <option value="Kinondoni">Kinondoni</option>
               <option value="Temeke">Temeke</option>
@@ -79,7 +79,7 @@
      <div class="row py-3">
     <div class="col-md-6"> 
         <label >Idadi ya kata katika jimbo</label>
-        <input type="number" class="form-control" name="idadi">
+        <input type="number" class="form-control" name="idadi" required>
       </div>
      
 <div class="col-md-6">
