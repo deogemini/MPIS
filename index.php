@@ -43,7 +43,7 @@
       <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                    <img src="Assets/images/mbunge.jfif" alt="wanachi">
+                    <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature">
                       </div>
                       <div class="card_bottom">
                        <div class="card_category">
@@ -62,7 +62,7 @@
             <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                    <img src="Assets/images/akijibu.jfif" alt="wanachi">
+                    <img src="Assets/images/akijibu.jfif" alt="wanachi" class="img-feature">
                       </div>
                       <div class="card_bottom">
                        <div class="card_category">
@@ -81,7 +81,7 @@
             <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                    <img src="Assets/images/wananchi.jfif" alt="wanachi">
+                    <img src="Assets/images/wananchi.jfif" alt="wanachi" class="img-feature">
                       </div>
                       <div class="card_bottom">
                        <div class="card_category">
@@ -100,7 +100,7 @@
             <div class="card_item">
                  <div class="card_inner">
                 <div  class="card_top">
-                    <img src="Assets/images/wabunge.jfif" alt="wanachi">
+                    <img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature" class="responsive">
                       </div>
                       <div class="card_bottom">
                        <div class="card_category">
@@ -127,8 +127,8 @@
     
 
 <!--  footer-->
-	<footer class="footer">
-      <div class="container">
+	<footer class="footer" style="margin-top: auto;" >
+      <div class="container" ">
       	<span class="text-dark"> <strong>MPIS </strong></strong>@ 2021 Copyright</span>
       </div>
     </footer>
