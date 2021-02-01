@@ -1,0 +1,42 @@
+<?php 
+
+include ('db.php');
+
+
+//insert data
+$status  = "";
+if(isset($_POST['submit'])){
+    $jinalakwanza = $_POST['jinalakwanza'];
+    $jinalapili = $_POST['jinalapili'];
+    $jinalamwisho = $_POST['jinalamwisho'];
+    $gender = $_POST['gender'];
+    $birthdate = $_POST['birthdate'];
+    $email = $_POST['email'];
+    $telephone = $_POST['telephone'];
+    $chama=$_POST['chama'];
+    $startingdate = $_POST['startingdate'];
+    $finishingdate = $_POST['finishingdate'];
+  
+
+
+    if(empty($jinalakwanza) || empty($jinalapili) || empty($jinalamwisho) || empty($gender) || empty($birthdate) 
+    || empty($email) || empty($telephone) || empty($chama) || empty($startingdate)|| empty($finishingdate)) {
+        $status = "All fields are compulsory";
+    } else {
+        $sql = "INSERT INTO mbunge(jinalakwanza, jinalapili, jinalamwisho, gender, birthdate, email, telephone, chama, startingdate, finishingdate) VALUES (:jinalakwanza, :jinalapili, :jinalamwisho, :gender, :birthdate, :email, :telephone, :chama, :startingdate, :finishingdate) ";
+        $stmt = $pdo -> prepare($sql);
+        $stmt -> execute(["jinalakwanza" => $jinalakwanza, "jinalapili" => $jinalapili, "jinalamwisho" => $jinalamwisho, "gender" => $gender, "birthdate" => $birthdate,
+        "email" => $email, "telephone" => $telephone, "chama"=> $chama, "startingdate"=> $startingdate, "finishingdate"=>$finishingdate ]);
+
+        $_SESSION['success']="mbunge ameshasajiliwa";	
+
+
+        header("Location: /MPIS/Admin/index.php");
+        exit();
+
+        $status = "Your data was sent";
+        
+    }
+    
+    
+}

@@ -48,7 +48,7 @@
 
     <div class="col-md-6">
   <label>Telephone</label>
-    <input class="form-control" type="tel" placeholder=" +255000000" name="telphone">
+    <input class="form-control" type="tel" placeholder=" +255000000" name="telephone">
   </div>
 </div>
 
@@ -88,7 +88,7 @@
     
                  <div class="col-md-4">
                     <label>Finishing date</label>
-                   <input class="form-control" type="date" value="2011-08-19" name="finishdate" id="finishingdate">
+                   <input class="form-control" type="date" value="2011-08-19" name="finishingdate" id="finishingdate">
                 </div>
 </div>
 
