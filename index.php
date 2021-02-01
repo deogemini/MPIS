@@ -1,4 +1,4 @@
-<?php include 'user/main.php'; ?>
+<?php include 'user/layouts/main.php'; ?>
 <!--about us div-->
 <div class="container" id="aboutUs">
 <div class="row">
@@ -23,11 +23,11 @@
       <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                <a href="#">
+                <a href="user/login.php">
 <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature"></a>
                       </div>
                       <div class="card_bottom">
-                        <a href="/login">
+                        <a href="user/login.php">
                        <div class="card_category">
                            kutoa maoni
                          </div></a>
@@ -46,10 +46,10 @@
             <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                  <a href="/login">  <img src="Assets/images/akijibu.jfif" alt="wanachi" class="img-feature"></a>
+                  <a href="user/login.php">  <img src="Assets/images/akijibu.jfif" alt="wanachi" class="img-feature"></a>
                       </div>
                       <div class="card_bottom">
-                      <a href="/login"> <div class="card_category">
+                      <a href="user/login.php"> <div class="card_category">
                            kujibu maoni
                          </div>
                       </a>
@@ -66,10 +66,10 @@
             <div class="card_item">
           <div class="card_inner">
                 <div  class="card_top">
-                <a href="/login" > <img src="Assets/images/wananchi.jfif" alt="wanachi" class="img-feature"></a>
+                <a href="user/login.php" > <img src="Assets/images/wananchi.jfif" alt="wanachi" class="img-feature"></a>
                       </div>
                       <div class="card_bottom">
-                    <a href="/login">   <div class="card_category">
+                    <a href="user/login.php">   <div class="card_category">
                            kusikia maelekezo
                          </div></a>
 
@@ -85,10 +85,10 @@
             <div class="card_item">
                  <div class="card_inner">
                 <div  class="card_top">
-                 <a href="/login"><img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature" class="responsive"></a>
+                 <a href="user/login.php"><img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature" class="responsive"></a>
                       </div>
                       <div class="card_bottom">
-                       <a href="/login"><div class="card_category">
+                       <a href="user/login.php"><div class="card_category">
                            kujua wabunge 
                          </div></a>
 
@@ -112,4 +112,4 @@
     
 
 <!--  footer-->
-<?php include 'user/common_base.php'; ?>
+<?php include 'user/layouts/common_base.php'; ?>
