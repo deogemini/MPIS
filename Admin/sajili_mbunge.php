@@ -19,10 +19,25 @@
       </div>
       </div>
       </div>
-        <div class="col">
+        <div class="row">
+          <div class="col-md-6">
         <div class="form-outline">
         <label class="form-label" >Jina la Mwisho</label>
         <input type="text" name="jinalamwisho" class="form-control" name="jinalamwisho">
+        </div>
+          </div>
+        <div class="col-md-6">
+        <label> jimbo</label>
+        <select name="jimbo"  class="js-example-basic-single form-control">
+    <?php
+        include "db.php";  // Using database connection file here
+        $stmt = $pdo->query('SELECT jinalajimbo FROM jimbo');
+        while($row=$stmt->fetch()){
+          echo "<option value=".$row->jinalajimbo.">".$row->jinalajimbo."</option>";
+        }
+    ?>  
+  </select>
+        
       </div>
       </div>
       <br>
@@ -30,7 +45,7 @@
       <div class="row">
         <div class="col-md-6 text-center">
          <label> Gender</label><br>
-         <select name="gender" >
+         <select name="gender" class="form-control">
            <option value="male">Male</option>
            <option value="female">Female</option>
          </select>
