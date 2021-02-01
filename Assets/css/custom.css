@@ -23,7 +23,9 @@
   box-sizing: border-ridge;
   font-family: 'Nunito', sans-serif;
 }
-
+/* .wrapper>.cards_wrap a{
+  text-decoration: none;
+} */
 body{
   background: #f7ca8f;
   color: #555555;
