@@ -10,7 +10,7 @@
 </head>
 <body  >
 
-<div class="navbarSupportedContent" style="background-color: #00FFFF">
+<div class="navbarSupportedContent" style="background-color: #32f84c">
 	     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
          
           MPIS(Member of Parliament Information System)

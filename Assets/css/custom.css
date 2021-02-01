@@ -1,21 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto&display=swap');
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color:#32f84c;
+  background-color:#99ff66;
 
 }
 
 .page-content-wrapper{
-	  background-color:#18ee71;
+	  background-color:#99ff66;
 }
 
 .sidebar-wrapper{
 	background-color: #4169e1;
 }
 
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-ridge;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background: #f7ca8f;
+  color: #555555;
+  font-size: 14px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  display: block ;
+}
+
+.wrapper{
+  margin: 20px 0;
+  width: 100%;
+
+}
+
+.wrapper .cards_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.cards_wrap .card_item{
+  width: 25%;
+  padding: 10px;
+}
+.bg-light{
+  background-color:#99ff66!important;
+}
+
+.cards_wrap .card_inner{
+  background: rgba(229, 231, 225, 0.863);
+}
+
+.cards_wrap .card_top{
+   width: 100px;
+   height: auto;
+   padding: 10px;
+   padding-bottom: 0;
+}
+
+.cards_wrap .card_bottom{
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category{
+  text-transform: uppercase ;
+  text-align: center;
+}
+
+.card_wrap .card_bottom .card_info{
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px dashed #0071bc;
+}
+
+.cards_wrap .card_bottom .card_info .title{
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_info .card_info .card_category{
+  text-align: center;
+}
+
+@media(max-width: 1024px){
+  .cards_wrap .card_item{
+    width: 33.3%;
+  }}
+
+@media(max-width: 768px){
+    .cards_wrap .card_item{
+      width: 50%;
+    }
+
+}
 
 
+@media(max-width: 528px){
+  .cards_wrap .card_item{
+    width: 100%;
+  }
 
+}

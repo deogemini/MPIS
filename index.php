@@ -16,14 +16,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="Aboutus">About System</a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Contact us</a>
-    </div>
-  </div>
+
 </nav>
 
 <!--about us div-->
@@ -45,25 +38,100 @@
 <div class="row">
 <div class="col-md-12">
     <h3  style="text-align: center;"> Features</h3>
-    <p>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
-    the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
+  <div class="wrapper">
+    <div class="cards_wrap">
+      <div class="card_item">
+          <div class="card_inner">
+                <div  class="card_top">
+                    <img src="Assets/images/mbunge.jfif" alt="wanachi">
+                      </div>
+                      <div class="card_bottom">
+                       <div class="card_category">
+                           kutoa maoni
+                         </div>
+
+                       <div class="card_info">
+                           <p class="title">Wananchi wanatoa maoni</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                      
+                       <div class="card_creator">By MPIS developer</div>
+                      </div>
+                </div>
+            </div>
+            <div class="card_item">
+          <div class="card_inner">
+                <div  class="card_top">
+                    <img src="Assets/images/akijibu.jfif" alt="wanachi">
+                      </div>
+                      <div class="card_bottom">
+                       <div class="card_category">
+                           kujibu maoni
+                         </div>
+
+                       <div class="card_info">
+                           <p class="title">Mbunge akijibu maoni</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                      
+                       <div class="card_creator">By MPIS developer</div>
+                      </div>
+                </div>
+            </div>
+            <div class="card_item">
+          <div class="card_inner">
+                <div  class="card_top">
+                    <img src="Assets/images/wananchi.jfif" alt="wanachi">
+                      </div>
+                      <div class="card_bottom">
+                       <div class="card_category">
+                           kusikia maelekezo
+                         </div>
+
+                       <div class="card_info">
+                           <p class="title">serikali kutoa maelekezo</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                      
+                       <div class="card_creator">By MPIS developer</div>
+                      </div>
+                </div>
+            </div>
+            <div class="card_item">
+                 <div class="card_inner">
+                <div  class="card_top">
+                    <img src="Assets/images/wabunge.jfif" alt="wanachi">
+                      </div>
+                      <div class="card_bottom">
+                       <div class="card_category">
+                           kujua wabunge 
+                         </div>
+
+                       <div class="card_info">
+                           <p class="title">Wananchi watajua wabunge </p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                      
+                       <div class="card_creator">By MPIS developer</div>
+                      </div>
+                </div>
+            </div>
+  </div>
+  </div>
+   </div>
 
 </div>    
 </div>
-</div>
+
 
     
 
 <!--  footer-->
-<div class="text-center p-3" style="bottom: 0; margin-top:10;position:bottom">
 	<footer class="footer">
       <div class="container">
       	<span class="text-dark"> <strong>MPIS </strong></strong>@ 2021 Copyright</span>
       </div>
     </footer>
-</div>
 <script src="/MPIS/Assets/js/jquery.js"></script>
 <script  src="/MPIS/Assets/js/bootstrap.min.js"></script>
 <script src="/MPIS/Assets/plugins/dist/js/select2.min.js"></script>
