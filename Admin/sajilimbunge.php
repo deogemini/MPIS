@@ -17,16 +17,17 @@ if(isset($_POST['submit'])){
     $chama=$_POST['chama'];
     $startingdate = $_POST['startingdate'];
     $finishingdate = $_POST['finishingdate'];
+    $password = password_hash(strtoupper($jinalamwisho),PASSWORD_DEFAULT);
   
 
      if(empty($jinalakwanza) || empty($jinalamwisho) || empty($jimbo) || empty($gender) || empty($birthdate) 
      || empty($email) || empty($telephone) || empty($chama) || empty($startingdate)|| empty($finishingdate)) {
         $status = "All fields are compulsory";
     } else {
-        $sql = "INSERT INTO mbunge(jinalakwanza, jinalapili, jinalamwisho,jimbo, gender, birthdate, email, telephone, chama, startingdate, finishingdate) VALUES (:jinalakwanza, :jinalapili, :jinalamwisho,:jimbo, :gender, :birthdate, :email, :telephone, :chama, :startingdate, :finishingdate) ";
+        $sql = "INSERT INTO mbunge(jinalakwanza, jinalapili, jinalamwisho,jimbo, gender, birthdate, email, telephone, chama, startingdate, finishingdate, password) VALUES (:jinalakwanza, :jinalapili, :jinalamwisho,:jimbo, :gender, :birthdate, :email, :telephone, :chama, :startingdate, :finishingdate, :password) ";
         $stmt = $pdo -> prepare($sql);
         $stmt -> execute(["jinalakwanza" => $jinalakwanza, "jinalapili" => $jinalapili, "jinalamwisho" => $jinalamwisho, "jimbo" => $jimbo, "gender" => $gender, "birthdate" => $birthdate,
-        "email" => $email, "telephone" => $telephone, "chama"=> $chama, "startingdate"=> $startingdate, "finishingdate"=>$finishingdate ]);
+        "email" => $email, "telephone" => $telephone, "chama"=> $chama, "startingdate"=> $startingdate, "finishingdate"=>$finishingdate, "password"=>$password ]);
         
         $_SESSION['success']="mbunge ameshasajiliwa";	
         
