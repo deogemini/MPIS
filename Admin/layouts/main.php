@@ -4,6 +4,8 @@
   <title>AdminPage</title>
   <meta name="viewport" content="width=device-width, scale=1.0">
 	<link rel="stylesheet"  href="/MPIS/Assets/css/bootstrap.min.css">
+ <link rel= "stylesheet" href="/MPIS/Assets/css/jquery.dataTables.min.css ">
+ <link rel="stylesheet" href="/MPIS/Assets/css/datatables.bootstrap.min.css">
     <link rel="stylesheet"  href="/MPIS/Assets/css/custom.css">
     <link href="/MPIS/Assets/plugins/dist/css/select2.min.css" rel="stylesheet" />
      
