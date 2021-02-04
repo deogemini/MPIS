@@ -8,14 +8,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script  src="/MPIS/Assets/js/bootstrap.min.js"></script>
 <script src="/MPIS/Assets/plugins/dist/js/select2.min.js"></script>
+
+</body>
+</html>
 <script>
     $(function(){
       $('.js-example-basic-single').select2();
     });
 
     $(document).ready( function () {
-    $('#myTable').DataTable();
+    $('#jimbo_data').DataTable();
 } );
 </script>
-</body>
-</html>
