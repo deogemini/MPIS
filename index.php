@@ -17,14 +17,14 @@
 <div class="container" id="features">
   <div class="row">
     <div class="col-md-12">
-      <h3 style="text-align: center;"> Features</h3>
+      <h3 style="text-align: center;" class="display-4"> Features</h3>
       <div class="wrapper">
-        <div class="cards_wrap">
-          <div class="card_item">
+        <div class="cards_wrap" >
+          <div class="card_item border rounded" >
             <div class="card_inner">
               <div class="card_top">
                 <a href="user/login.php">
-                  <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature"></a>
+                  <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature border rounded"></a>
               </div>
               <div class="card_bottom">
                 <a href="user/login.php">
@@ -44,10 +44,10 @@
             </div>
           </div>
 
-          <div class="card_item">
+          <div class="card_item border rounded">
             <div class="card_inner">
               <div class="card_top">
-                <a href="user/login.php"> <img src="Assets/images/akijibu.jfif" alt="wanachi" class="img-feature"></a>
+                <a href="user/login.php"> <img src="Assets/images/akijibu.jfif" alt="wanachi" class="img-feature border rounded"></a>
               </div>
               <div class="card_bottom">
                 <a href="user/login.php">
@@ -65,10 +65,10 @@
               </div>
             </div>
           </div>
-          <div class="card_item">
+          <div class="card_item border rounded">
             <div class="card_inner">
               <div class="card_top">
-                <a href="user/login.php"> <img src="Assets/images/wananchi.jfif" alt="wanachi" class="img-feature"></a>
+                <a href="user/login.php"> <img src="Assets/images/wananchi.jfif" alt="wanachi" class="img-feature border rounded"></a>
               </div>
               <div class="card_bottom">
                 <a href="user/login.php">
@@ -86,10 +86,10 @@
               </div>
             </div>
           </div>
-          <div class="card_item">
+          <div class="card_item border rounded" >
             <div class="card_inner">
               <div class="card_top">
-                <a href="user/login.php"><img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature" class="responsive"></a>
+                <a href="user/login.php"><img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature border rounded" class="responsive"></a>
               </div>
               <div class="card_bottom">
                 <a href="user/login.php">
