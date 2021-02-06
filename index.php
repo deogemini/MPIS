@@ -19,18 +19,27 @@
     <div class="col-md-12">
       <h3 style="text-align: center;" class="display-4"> Features</h3>
       <div class="wrapper">
-        <div class="cards_wrap" >
-          <div class="card_item border rounded" >
+        <div class="cards_wrap">
+          <div class="card_item border rounded">
             <div class="card_inner">
               <div class="card_top">
+                <a href="user/login.php"><img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature border rounded"></a>
+              </div>
+              <div class="card_bottom">
                 <a href="user/login.php">
-
+                  <div class="card_category">
+                    kutoa maoni
+                  </div>
+                </a>
+                <div class="card_info">
+                  <p class="title" style="align-content: center;">Mwananchi akitoa maoni</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-
                 <div class="card_creator">By MPIS developer</div>
               </div>
             </div>
           </div>
+
 
           <div class="card_item border rounded">
             <div class="card_inner">
@@ -40,19 +49,19 @@
               <div class="card_bottom">
                 <a href="user/login.php">
                   <div class="card_category">
-                    kujibu maoni
+                    Maoni yanawasilishwa
                   </div>
                 </a>
-
                 <div class="card_info">
-                  <p class="title">Mbunge akijibu maoni</p>
+                  <p class="title" style="align-content: center;">Mbunge akiongea bungeni</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
-
                 <div class="card_creator">By MPIS developer</div>
               </div>
             </div>
           </div>
+
+
           <div class="card_item border rounded">
             <div class="card_inner">
               <div class="card_top">
@@ -66,7 +75,7 @@
                 </a>
 
                 <div class="card_info">
-                  <p class="title">serikali kutoa maelekezo</p>
+                  <p class="title" style="align-content: center;">serikali kutoa maelekezo</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
 
@@ -74,7 +83,7 @@
               </div>
             </div>
           </div>
-          <div class="card_item border rounded" >
+          <div class="card_item border rounded">
             <div class="card_inner">
               <div class="card_top">
                 <a href="user/login.php"><img src="Assets/images/wabunge.jfif" alt="wanachi" class="img-feature border rounded" class="responsive"></a>
@@ -87,7 +96,7 @@
                 </a>
 
                 <div class="card_info">
-                  <p class="title">Wananchi watajua wabunge </p>
+                  <p class="title" style="align-content: center;">Wananchi watajua wabunge </p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
 
