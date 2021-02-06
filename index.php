@@ -27,8 +27,8 @@
 <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature"></a>
                       </div>
                       <div class="card_bottom">
-                        <a href="user/login.php">
-                       <div class="card_category">
+                        <a href="user/registration.php">
+                        <div class="card_category">
                            kutoa maoni
                          </div></a>
 
