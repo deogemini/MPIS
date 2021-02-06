@@ -24,19 +24,7 @@
             <div class="card_inner">
               <div class="card_top">
                 <a href="user/login.php">
-                  <img src="Assets/images/mbunge.jfif" alt="wanachi" class="img-feature border rounded"></a>
-              </div>
-              <div class="card_bottom">
-                <a href="user/login.php">
-                  <div class="card_category">
-                    kutoa maoni
-                  </div>
-                </a>
 
-                <div class="card_info">
-
-                  <p class="title">Wananchi wanatoa maoni</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
 
                 <div class="card_creator">By MPIS developer</div>
