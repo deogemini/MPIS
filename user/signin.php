@@ -11,16 +11,16 @@ if (isset($_POST["submit"])) {
     if (empty($firstname) || empty($password)) {
         $status = "All fields are compulsory";
     } else {
-        $sql = "SELECT * FROM citizen WHERE firstname='firstname' AND  password = 'password'";
+        $sql = "SELECT * FROM citizen WHERE firstname='$firstname' AND  password = '$password' LIMIT 1";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(["firstname" => $firstname, "password" => $password]);
         $count = $stmt->rowCount();
-        if ($count < 1) {
+        if ($count == 1) {
             $_SESSION["firstname"] = $_POST["firstname"];
-            $_SESSION["password"] = $_POST["password"];
             header("Location: /MPIS/user/index2.php");
         } else {
-            $message = '<label> Wrong Data </label>';
+            $message = 'failed';
+            header("Location: /MPIS/user/login.php?text=$message");
         }
 
 

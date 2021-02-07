@@ -74,11 +74,6 @@
 </head>
 
 <body>
-    <?php
-    if (isset($message)) {
-        echo '<label class="text-danger>' . $message . '</label>';
-    }
-    ?>
     <h2 class="form-text">Please login in MPIS</h2>
     <div class="container">
         <form action="signin.php" method="POST">
@@ -91,6 +86,14 @@
                 <label for="psw"><b>Password</b></label>
                 <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
             </div>
+            <?php
+            if (isset($_GET['text'])) {
+                if ($_GET['text'] == "failed") {
+
+                    echo '<h4> Wrong Password</h4>';
+                }
+            }
+            ?>
 
             <button type="submit" class="btn btn-info" name="submit" value="submit">Login</button>
             <label>
@@ -99,7 +102,7 @@
 
 
             <div class="container2">
-                <button type="button" class="cancelbtn"> <a href="registration.php">Cancel</a></button>
+                <button type="button" class="cancelbtn"> <a href="#">Cancel</a></button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
 
