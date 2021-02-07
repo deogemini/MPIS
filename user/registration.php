@@ -4,7 +4,7 @@
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-    <form action="signup.php" method="POST">
+    <form action="signup.inc.php" method="POST">
         <div class="form-group">
             <label for="fname"><b>Jina la kwanza</b></label>
             <input class="form-control" type="text" placeholder="Weka jina la kwanza" name="firstname" required>
@@ -43,26 +43,26 @@
         </div>
         <div class="form-group">
             <label for="psw"><b>Password</b></label>
-            <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
+            <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
         </div>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input class="form-control" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input class="form-control" type="password" placeholder="Repeat Password" name="password_repeat">
         </div>
         <label>
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-        </label>
+        </label> -->
 
         <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-        <button type="submit" class="registerbtn">Register</button>
+        <button type="submit" name="submit" class="btn btn-success" value="submit">Register</button>
+    </form>
+    <div class="container signin">
+        <p>Already have an account? <a href="login.php">Sign in</a>.</p>
+    </div>
 
-        <div class="container signin">
-            <p>Already have an account? <a href="login.php">Sign in</a>.</p>
-        </div>
+</div>
 
-</div>
-</div>
-</form>
-</div>
+
+<?php include 'layouts/common_base.php'; ?>

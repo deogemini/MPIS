@@ -74,28 +74,32 @@
 </head>
 
 <body>
-
+    <?php
+    if (isset($message)) {
+        echo '<label class="text-danger>' . $message . '</label>';
+    }
+    ?>
     <h2 class="form-text">Please login in MPIS</h2>
     <div class="container">
         <form action="signin.php" method="POST">
             <div class="form-group">
                 <label for="uname"><b>First name</b></label>
-                <input class="form-control" type="text" placeholder="Enter Username" name="firstname" required>
+                <input class="form-control" type="text" placeholder="Enter your First name" name="firstname" required>
             </div>
 
             <div class="form-group">
                 <label for="psw"><b>Password</b></label>
-                <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
+                <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
             </div>
 
-            <button type="submit">Login</button>
+            <button type="submit" class="btn btn-info" name="submit" value="submit">Login</button>
             <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
 
 
             <div class="container2">
-                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="button" class="cancelbtn"> <a href="registration.php">Cancel</a></button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
 
