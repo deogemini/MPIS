@@ -1,5 +1,5 @@
 <?php include 'layouts/main.php'; ?>
-<div style="background-image: url('/MPIS/Assets/images/kampen.jpg');">
+
     <?php
     session_start();
     if (isset($_SESSION["firstname"])) {
@@ -68,5 +68,4 @@
         </div>
     </div>
 
-</div>
 <?php include 'layouts/common_base.php'; ?>

@@ -15,8 +15,8 @@
 
 <body>
 
-  <div class="navbarSupportedContent" style="background-color: #32f84c">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <div class="navbarSupportedContent ">
+    <nav class="navbar navbar-expand-lg navbar-lighbg-light border-bottom">
 
       MPIS(Member of Parliament Information System)
 
