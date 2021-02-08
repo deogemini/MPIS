@@ -4,7 +4,7 @@
 
 <head>
 
-<title>Login Form Design</title>
+<title>Login Form</title>
 
  <style>
     body{
