@@ -1,92 +1,252 @@
 <?php include 'layouts/main.php'; ?>
 
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+<html>
 
-    form {
-        border: 3px;
-    }
+<head>
 
-    input[type=text],
-    input[type=password] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-    }
+<title>Login Form Design</title>
 
-    button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-    }
+ <style>
+    body{
 
-    button:hover {
-        opacity: 0.8;
-    }
+margin: 0;
 
-    .cancelbtn {
-        width: 140px;
-        background-color: #f44336;
-        margin-top: -20px;
-        margin-left: 50px;
+padding: 0;
+background-size: cover;
 
-    }
+background-position: center;
+
+font-family: sans-serif;
+background-image: url("img/background.jpg");
+
+}
 
 
-    .container {
-        padding: 30px;
-    }
 
-    .container2 {
-        padding: 30px;
-        margin-left: 200px;
-        margin-right: 200px;
-    }
+.loginboxlayout{
 
-    span.psw {
-        float: right;
-        margin-right: 100px;
+width: 320px;
 
-    }
+height: 400px;
 
-    /* Change styles for span and cancel button on extra small screens */
-    @media screen and (max-width: 300px) {
-        span.psw {
-            display: block;
-            float: none;
-        }
+background: #444;
 
-        .cancelbtn {
-            padding-top: 10px;
+color: #fff;
 
-        }
-    }
-</style>
-</head>
+top: 60%;
+
+left: 50%;
+
+position: absolute;
+
+transform: translate(-50%,-50%);
+
+box-sizing: border-box;
+
+padding: 70px 30px;
+
+}
+
+
+
+.avenger{
+
+width: 100px;
+
+height: 100px;
+
+border-radius: 50%;
+
+position: absolute;
+
+top: -50px;
+
+left: calc(50% - 50px);
+
+}
+
+
+
+h1{
+
+margin: 0;
+
+padding: 0 0 20px;
+
+text-align: center;
+
+font-size: 22px;
+
+}
+
+
+
+.loginboxlayout p{
+
+margin: 0;
+
+padding: 0;
+
+font-weight: bold;
+
+}
+
+
+
+.loginboxlayout input{
+
+width: 100%;
+
+margin-bottom: 20px;
+
+}
+
+
+
+.loginboxlayout input[type="text"], input[type="password"]
+
+{
+
+border: none;
+
+border-bottom: 1px solid #fff;
+
+background: transparent;
+
+outline: none;
+
+height: 40px;
+
+color: #fff;
+
+font-size: 16px;
+
+}
+
+.loginboxlayout input[type="submit"]
+
+{
+
+border: none;
+
+outline: none;
+
+height: 40px;
+
+background: #fb2525;
+
+color: #fff;
+
+font-size: 18px;
+
+border-radius: 20px;
+
+}
+
+.loginboxlayout input[type="submit"]:hover
+
+{
+
+cursor: pointer;
+
+background: #ffc107;
+
+color: #000;
+
+}
+
+.loginboxlayout a{
+
+text-decoration: none;
+
+font-size: 12px;
+
+line-height: 20px;
+
+color: darkgrey;
+
+}
+
+
+
+.loginboxlayout a:hover
+
+{
+
+color: #ffc107;
+
+}
+
+footer {
+
+background-color: #555;
+
+color: #fff;
+
+font-size: 14px;
+
+bottom: 0;
+
+position: fixed;
+
+left: 0;
+
+right: 0;
+
+text-align: center;
+
+z-index: 999;
+
+}
+
+
+
+footer p {
+
+margin: 10px 0;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+footer a {
+
+color: #ff6f61;
+
+text-decoration: none;
+
+margin-right:5px;
+
+}
+    
+    </style>
 
 <body>
-    <h2 class="form-text">Please login in MPIS</h2>
-    <div class="container">
-        <form action="signin.php" method="POST">
-            <div class="form-group">
-                <label for="uname"><b>First name</b></label>
-                <input class="form-control" type="text" placeholder="Enter your First name" name="firstname" required>
-            </div>
+          <div class="container">
+          <div class="loginboxlayout">
 
-            <div class="form-group">
-                <label for="psw"><b>Password</b></label>
-                <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
-            </div>
-            <?php
+        <img src="https://1.bp.blogspot.com/-gKqA42FtA48/YABSs2BtewI/AAAAAAAAQAA/l5LBFoA-ECQbI8LLU0oIl75sgaVLduBUwCLcBGAsYHQ/s200/avatar.png" class="avenger">
+        <h1>Login Here</h1>
+        <form action="signin.php" method="POST">
+            <p>Username</p>
+
+            <input type="text" name="firstname" placeholder="First name" required>
+
+            <p>Password</p>
+
+            <input type="password" name="password" placeholder="Enter Password" required>
+
+            <input type="submit" name="" value="Login">
+
+            <a href="#">Lost your password?</a><br>
+
+            <a href="#">Don't have an account?</a>
+
+        </form>
+    </div>
+    <?php
             if (isset($_GET['text'])) {
                 if ($_GET['text'] == "failed") {
 
@@ -94,21 +254,24 @@
                 }
             }
             ?>
+          </div>
+    
 
-            <button type="submit" class="btn btn-info" name="submit" value="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+<!--footer>
 
+    <p>
 
-            <div class="container2">
-                <button type="button" class="cancelbtn"> <a href="#">Cancel</a></button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
+		Created by
 
-        </form>
-    </div>
+		<a target="_blank" href="https://codekky.blogspot.com/">Code herdt</a>
+
+    	</p>
+
+</footer-->
+
 </body>
+
+</head>
 
 </html>
 
