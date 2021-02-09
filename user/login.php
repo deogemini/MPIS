@@ -257,17 +257,7 @@ margin-right:5px;
           </div>
     
 
-<!--footer>
 
-    <p>
-
-		Created by
-
-		<a target="_blank" href="https://codekky.blogspot.com/">Code herdt</a>
-
-    	</p>
-
-</footer-->
 
 </body>
 
