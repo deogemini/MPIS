@@ -46,9 +46,6 @@ box-sizing: border-box;
 padding: 70px 30px;
 
 }
-
-
-
 .avenger{
 
 width: 100px;
@@ -64,8 +61,6 @@ top: -50px;
 left: calc(50% - 50px);
 
 }
-
-
 
 h1{
 
