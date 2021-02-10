@@ -34,10 +34,10 @@ if (isset($_SESSION["firstname"])) {
         <div class="col-md-4" style="background-color: #a4c3f5;">
             <div class="wrapper">
                 <h4><strong>Post your Compliment here</strong></h4>
-                <form action="#posting.php" method="POST">
+                <form action="posting.php" method="POST">
                     <div class="form-group">
                         <label for="title">Title</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="title" required>
                     </div>
                     <div class="form-group">
                         <label>Category</label>
@@ -53,13 +53,13 @@ if (isset($_SESSION["firstname"])) {
                     </div>
                     <div class="form-group">
                         <label for="body">Description</label>
-                        <textarea type="text" class="form-control" name="description" placeholder="write full decsription here" required></textarea>
+                        <textarea type="text" class="form-control" name="body" placeholder="write full decsription here" required></textarea>
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="file">Upload attachement</label>
                         <input type="file" class="form-control" name="file">
-                    </div>
+                    </div> -->
 
                     <button type="submit" class="btn btn-light" name="submit">Post your Comment</button>
                 </form>
