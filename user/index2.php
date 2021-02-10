@@ -31,7 +31,7 @@ if (isset($_SESSION["firstname"])) {
     </div>
 
     <div class="row">
-        <div class="col-md-4" style="background-color: #a4c3f5;">
+        <div class="col-md-4" style="background-color: #bddacc;;">
             <div class="wrapper">
                 <h4><strong>Post your Compliment here</strong></h4>
                 <form action="posting.php" method="POST">
@@ -41,7 +41,7 @@ if (isset($_SESSION["firstname"])) {
                     </div>
                     <div class="form-group">
                         <label>Category</label>
-                        <select name="category" id="category" class="js-example-basic-single form-control" required>
+                        <select name="category" class="form-control" id="category" class="js-example-basic-single form-control" required>
                             <option value="maji">Maji</option>
                             <option value="ardhi">Ardhi</option>
                             <option value="kilimo">Kilimo</option>
@@ -56,13 +56,14 @@ if (isset($_SESSION["firstname"])) {
                         <textarea type="text" class="form-control" name="body" placeholder="write full decsription here" required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-light" name="submit">Post your Comment</button>
+                    <button type="submit" class="btn btn-info" name="submit">Post your Comment</button>
                 </form>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
             <marquee>
-                <h2 style="text-decoration-color: #a4c3f5;"><b>Latest comments from other citizens</b></h3>
+                <h2 style="background-color:#b4dabf;"><b>Latest comments from other citizens</b></h3>
             </marquee>
             <div class="wrapper">
                 <?php
@@ -73,25 +74,25 @@ if (isset($_SESSION["firstname"])) {
                     $category = $row->category;
                     $body = $row->body; ?>
 
-                    <div class="card_item border rounded">
+                    <div class="card_item border rounded" style="background-color: #a4c3f5;">
                         <div class="card_inner">
                             <div class="card_top">
-                                <?php echo $title;  ?>
+                                <?php echo '<h4 style="text-align: center"> <b>' . $title;
+                                '</b> </h4>'  ?>
                             </div>
                             <div class="card_bottom">
-
                                 <div class="card_category">
-                                    <?php echo $category; ?>
+                                    <?php echo '<h3><span>' . $category;
+                                    '</span></h3>' ?>
                                 </div>
-
                                 <div class="card_info">
-                                    <p class="title" style="align-content: center;">Mwananchi akitoa maoni</p>
-                                    <p><?php echo $body; ?>
+                                    <p><?php echo '<p style="text-align:center">' . $body;
+                                        '</p>' ?>
                                 </div>
-                                <div class="card_creator">By MPIS developer</div>
                             </div>
                         </div>
                     </div>
+                    <br>
 
 
                 <?php } ?>
