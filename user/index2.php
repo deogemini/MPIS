@@ -56,14 +56,48 @@ if (isset($_SESSION["firstname"])) {
                         <textarea type="text" class="form-control" name="body" placeholder="write full decsription here" required></textarea>
                     </div>
 
-                    <!-- <div class="form-group">
-                        <label for="file">Upload attachement</label>
-                        <input type="file" class="form-control" name="file">
-                    </div> -->
-
                     <button type="submit" class="btn btn-light" name="submit">Post your Comment</button>
                 </form>
             </div>
+        </div>
+        <div class="col-md-8">
+            <marquee>
+                <h2 style="text-decoration-color: #a4c3f5;"><b>Latest comments from other citizens</b></h3>
+            </marquee>
+            <div class="wrapper">
+                <?php
+                include('db.php');
+                $stmt = $pdo->query('SELECT * FROM post');
+                while ($row = $stmt->fetch()) {
+                    $title = $row->title;
+                    $category = $row->category;
+                    $body = $row->body; ?>
+
+                    <div class="card_item border rounded">
+                        <div class="card_inner">
+                            <div class="card_top">
+                                <?php echo $title;  ?>
+                            </div>
+                            <div class="card_bottom">
+
+                                <div class="card_category">
+                                    <?php echo $category; ?>
+                                </div>
+
+                                <div class="card_info">
+                                    <p class="title" style="align-content: center;">Mwananchi akitoa maoni</p>
+                                    <p><?php echo $body; ?>
+                                </div>
+                                <div class="card_creator">By MPIS developer</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <?php } ?>
+
+            </div>
+
         </div>
     </div>
 </div>
