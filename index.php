@@ -99,7 +99,7 @@
 
                 <div class="card_info">
                   <p class="title" style="align-content: center;">Wananchi watajua wabunge </p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Sehemu hii itakuwezesha kuwajua wabunge mbalimbali...</p>
                 </div>
 
                 <div class="card_creator">By MPIS developer</div>
