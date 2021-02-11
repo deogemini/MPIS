@@ -35,7 +35,7 @@
                 </a>
                 <div class="card_info">
                   <p class="title" style="align-content: center;">Mwananchi akitoa maoni</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Picha hapo juu ni mmojawapo wa wananchi akitoa maoni,katika moja ya mikutano ya hadhara.</p>
                 </div>
                 <div class="card_creator">By MPIS developer</div>
               </div>
