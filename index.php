@@ -56,7 +56,7 @@
                 </a>
                 <div class="card_info">
                   <p class="title" style="align-content: center;">Mbunge akiongea bungeni</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p> picha hapo juu ni mbunge akiwasilisha maoni yake mbungeni kama moja ya majukumu yake...</p>
                 </div>
                 <div class="card_creator">By MPIS developer</div>
               </div>
