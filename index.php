@@ -78,7 +78,7 @@
 
                 <div class="card_info">
                   <p class="title" style="align-content: center;">serikali kutoa maelekezo</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p> Picha hapo juu ni serikali ikitoa maelekezo, juu ya mikakati ya maendeleo katika jamii...</p>
                 </div>
 
                 <div class="card_creator">By MPIS developer</div>
