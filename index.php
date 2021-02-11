@@ -5,8 +5,9 @@
     <div class="col-md-12">
       <h3 style="text-align: center;"> About us</h3>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Baraza la kutunga sheria au Bunge la jamhuri ya muungano wa Tanzania,lina sehemu mbili yaani Rais na Wabunge. Rais anatekeleza madaraka yote aliyokabidhiwa na Katiba kwa kuridhia miswada ya sheria ya bunge ili kukamilisha mchakato wa kutunga sheria kabla ya kuwa sheria.      
+        Sehemu hii inakupa taarifa kamili kuhusu bunge ambalo ndicho chombo kikuu cha Jamhuri ya Muungano ambacho kina madaraka kwa niaba ya wananchi, kusimamia na kuishauri Serikali ya Jamhuri ya Muungano na vyombo vyake vyote katika utekelezaji wa majukumu yake. na Pia utaweza 
+        kutoa maoni yako kutoka moja kwa moja kwenye jimbo lako na Mbunge wako ataweza kuona hayo maoni au changamoto zozote ambazo ziko kwenye jimbo lako.
       </p>
 
     </div>
