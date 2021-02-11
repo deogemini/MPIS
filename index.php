@@ -7,7 +7,8 @@
       <p>
         Baraza la kutunga sheria au Bunge la jamhuri ya muungano wa Tanzania,lina sehemu mbili yaani Rais na Wabunge. Rais anatekeleza madaraka yote aliyokabidhiwa na Katiba kwa kuridhia miswada ya sheria ya bunge ili kukamilisha mchakato wa kutunga sheria kabla ya kuwa sheria.      
         Sehemu hii inakupa taarifa kamili kuhusu bunge ambalo ndicho chombo kikuu cha Jamhuri ya Muungano ambacho kina madaraka kwa niaba ya wananchi, kusimamia na kuishauri Serikali ya Jamhuri ya Muungano na vyombo vyake vyote katika utekelezaji wa majukumu yake. na Pia utaweza 
-        kutoa maoni yako kutoka moja kwa moja kwenye jimbo lako na Mbunge wako ataweza kuona hayo maoni au changamoto zozote ambazo ziko kwenye jimbo lako.
+        kutoa maoni yako kutoka moja kwa moja kwenye jimbo lako na Mbunge wako ataweza kuona hayo maoni au changamoto zozote ambazo ziko kwenye jimbo lako. Ambapo pia Mbunge wako ataweza kujibu hayo maoni na hizo changamoto ikiwa ni pamoja na kuziwakilisha bungeni kama sehemu ya 
+        majukumu yake.
       </p>
 
     </div>
