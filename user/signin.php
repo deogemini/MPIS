@@ -20,7 +20,7 @@ if (isset($_POST["submit"])) {
             $row = $stmt->fetch();
             $role = $row->role;
 
-            if ($role == "admin") {
+            if ($role == "mbunge") {
                 // $_SESSION['sid'] = session_id();
                 $_SESSION['firstname'] = $firstname;
                 header("Location: /MPIS/user/index3.php");

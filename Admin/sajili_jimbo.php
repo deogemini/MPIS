@@ -50,6 +50,8 @@
         <label>WILAYA JIMBO LILIPO:</label>
         <select name="wilaya" class="js-example-basic-single form-control" required>
           <option value="Ilala">Ilala</option>
+          <option value="Arusha">Arusha</option>
+          <option value="Longido">Longido</option>
           <option value="Kinondoni">Kinondoni</option>
           <option value="Temeke">Temeke</option>
           <option value="Bagamoyo">Bagamoyo</option>
