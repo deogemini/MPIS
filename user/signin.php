@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
             if ($role == "mbunge") {
                 // $_SESSION['sid'] = session_id();
                 $_SESSION['firstname'] = $firstname;
-                header("Location: /MPIS/user/index3.php");
+                header("Location: /MPIS/mbunge/index3.php");
             } else if ($role == "citizen") {
                 // $_SESSION['sid'] = session_id();
                 // $_SESSION['user'] = $role;
