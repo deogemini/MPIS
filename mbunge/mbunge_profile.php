@@ -1,4 +1,5 @@
 <?php include 'layouts/main.php'; ?>
+<?php include 'db.php';?>
 <div class="container">
     <h3>Mbunge details</h3>
     <table class="table table-bordered">
