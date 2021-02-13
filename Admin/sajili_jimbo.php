@@ -74,6 +74,18 @@
           <option value="Singida">Singida</option>
           <option value="Ruvuma">Ruvuma</option>
           <option value="Rukwa">Rukwa</option>
+          <option value="Kilindi">Kilindi</option>
+          <option value="Korogwe">Korogwe</option>
+          <option value="Lushoto">Lushoto</option>
+          <option value="Mkinga">Mkinga</option>
+          <option value="Jiji la Tanga">Jiji la Tanga</option>
+
+          <option value="Mji Handeni">Mji wa Handeni</option>
+
+          <option value="Muhenza">Muhenza</option>
+          <option value="Pangani">Pangani</option>
+
+          <option value="Bumbuli">Bumbuli</option>
           <option value="Lindi">Lindi</option>
           <option value="Mpwapwa">Mpwapwa</option>
           <option value="Nzega">Nzega</option>
