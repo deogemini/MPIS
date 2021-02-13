@@ -1,5 +1,5 @@
-<?php include 'layouts/main.php';?>
-
+<?php include 'layouts/main.php'; ?>
+<h3 style="text-align: center;"> view and replay the compliments</h3>
 
 
 
