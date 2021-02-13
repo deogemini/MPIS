@@ -1,4 +1,12 @@
 <?php include('layouts/main.php'); ?>
+<?php
+session_start();
+if (isset($_SESSION["firstname"])) {
+    echo "<div class='alert alert-success' role='alert'> <p>Login Success, Welcome.. " . $_SESSION["firstname"] . "</p></div>";
+} else {
+    header("location:/MPIS/user/login.php");
+}
+?>
 
 <!-- Page Content  -->
 
