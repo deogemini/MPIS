@@ -27,17 +27,17 @@
             </div>
 
             <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="main.php" data-toggle="collapse" aria-expanded="false">Home</a>
+                <li>
+                    <a href="index.php">Home</a>
 
                 </li>
                 <li>
-                    <a href="#">View compliments
+                    <a href="/MPIS/mbunge/view_comments.php">View compliments
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">Mbunge Profile</a>
+                    <a href="/MPIS/mbunge/mbunge_profile.php">Mbunge Profile</a>
                 </li>
                 <li>
 
@@ -60,10 +60,6 @@
                         <i class="fas fa-align-left"></i>
                         <span>Menus slide</span>
                     </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
 
                 </div>
             </nav>
