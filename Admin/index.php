@@ -1,5 +1,13 @@
 <?php include 'layouts/main.php'; ?>
 <div class="container">
+	<?php
+	session_start();
+	if (isset($_SESSION["firstname"])) {
+		echo '<p>Login Success, Welcome.. ' . $_SESSION["firstname"] . '</p>';
+	} else {
+		header("location:/MPIS/user/login.php");
+	}
+	?>
 	<p class="text-justify">
 
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
