@@ -1,5 +1,4 @@
 <?php include 'layouts/main.php'; ?>
-<h3 style="text-align: center;"> view and replay the compliments</h3>
 <?php
 include('db.php');
 $stmt = $pdo->query('SELECT * FROM post');
@@ -25,34 +24,34 @@ while ($row = $stmt->fetch()) {
                         '</p>' ?>
                 </div>
             </div>
-         <?php echo  "<div class='btn-group'><a class='btn btn-primary' data-toggle='modal' data-target='#myModal_$id' href='#'><i class='fa fa-lg fa-edit'></i></a></div>
-            <div id='myModal_$id' class='modal fade' role='dialog'>"?>
-                <div class="modal-dialog">
+            <?php echo  "<div class='btn-group'><a class='btn btn-primary' data-toggle='modal' data-target='#myModal_$id' href='#'><i class='fa fa-lg fa-edit'></i></a></div>
+            <div id='myModal_$id' class='modal fade' role='dialog'>" ?>
+            <div class="modal-dialog">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Feedback view</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <form action="response.php?id=<?php echo $id; ?>" method="POST">
-                                <div class="title-body">
-                                    <p><?php echo $body; ?></p>
-                                    <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here"></textarea>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="submit" name="submit" class="btn btn-default" value="submit">Submit</button>
-                                </div>
-                            </form>
-                        </div>
-
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Feedback view</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                </div>
+                    <div class="modal-body">
+                        <form action="response.php?id=<?php echo $id; ?>" method="POST">
+                            <div class="title-body">
+                                <p><?php echo $body; ?></p>
+                                <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" name="submit" class="btn btn-default" value="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
 
+                </div>
             </div>
+
         </div>
-        <br>
+    </div>
+    <br>
 
     </div>
 <?php } ?>
