@@ -22,6 +22,7 @@
           <option value="Dar es Salaam">Dar es Salaam</option>
           <option value="Iringa">Iringa</option>
           <option value="Kilimanjaro">Kilimanjaro</option>
+          <option value="Mjini Magharibi ">Mjini Magharibi</option>
           <option value="Arusha">Arusha</option>
           <option value="Mwanza">Mwanza</option>
           <option value="Mara">Mara</option>
@@ -50,6 +51,9 @@
         <label>WILAYA JIMBO LILIPO:</label>
         <select name="wilaya" class="js-example-basic-single form-control" required>
           <option value="Ilala">Ilala</option>
+          <option value="Magharibi A">Magharibi A</option>
+          <option value="Magharibi B">Magharibi B</option>
+          <option value="Mjini">Mjini</option>
           <option value="Arusha">Arusha</option>
           <option value="Longido">Longido</option>
           <option value="Kinondoni">Kinondoni</option>
