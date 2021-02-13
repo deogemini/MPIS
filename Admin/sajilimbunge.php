@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     $startingdate = $_POST['startingdate'];
     $finishingdate = $_POST['finishingdate'];
     $password = strtoupper($lastname);
-    $role = "admin";
+    $role = "mbunge";
 
 
     if (
