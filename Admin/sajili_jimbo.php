@@ -79,6 +79,14 @@
           <option value="Nzega">Nzega</option>
           <option value="Kisarawe">Kisarawe</option>
           <option value="Meatu">Meatu</option>
+          <option value="Kaliua">Kaliua</option>
+          <option value="Igunga">Igunga</option>
+          <option value="Urambo">Urambo</option>
+          <option value="Igunga">Igunga</option>
+          <option value="Uyui">Uyui</option>
+          <option value="Sikonge">Sikonge</option>
+          <option value="Mjini Nzega">Mjini Nzega</option>
+          <option value="tabora">Tabora</option>
           <option value="Baridi">Baridi</option>
         </select>
       </div>
