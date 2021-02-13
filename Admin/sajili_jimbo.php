@@ -51,6 +51,16 @@
         <label>WILAYA JIMBO LILIPO:</label>
         <select name="wilaya" class="js-example-basic-single form-control" required>
           <option value="Ilala">Ilala</option>
+          <option value="Morogoro Mjini">Morogoro Mjini</option>
+          <option value="Ifakara">Ifakara</option>
+          <option value="Gairo">Gairo</option>
+          <option value="Kilosa">Kilosa</option>
+          <option value="Malinyi">Malinyi</option>
+          <option value="Mlimba">Mlimba</option>
+          <option value="Morogoro Wilaya">Morogoro Wilaya</option>
+          <option value="Mvomero">Mvomero</option>
+          <option value="Ulanga">Ulanga</option>
+
           <option value="Magharibi A">Magharibi A</option>
           <option value="Magharibi B">Magharibi B</option>
           <option value="Mjini">Mjini</option>
