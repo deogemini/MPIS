@@ -4,6 +4,7 @@
 include('db.php');
 $stmt = $pdo->query('SELECT * FROM post');
 while ($row = $stmt->fetch()) {
+    $id = $row->id;
     $title = $row->title;
     $category = $row->category;
     $body = $row->body; ?>
@@ -24,8 +25,8 @@ while ($row = $stmt->fetch()) {
                         '</p>' ?>
                 </div>
             </div>
-            <div class="btn-group"><a class='btn btn-primary' data-toggle='modal' data-target='#myModal' href='#'><i class="fa fa-lg fa-edit"></i></a></div>
-            <div id="myModal" class="modal fade" role="dialog">
+         <?php echo  "<div class='btn-group'><a class='btn btn-primary' data-toggle='modal' data-target='#myModal_$id' href='#'><i class='fa fa-lg fa-edit'></i></a></div>
+            <div id='myModal_$id' class='modal fade' role='dialog'>"?>
                 <div class="modal-dialog">
 
                     <!-- Modal content-->
@@ -35,13 +36,15 @@ while ($row = $stmt->fetch()) {
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         <div class="modal-body">
-                            <div class="title-body">
-
-                                <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here"></textarea>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
-                            </div>
+                            <form action="response.php?id=<?php echo $id; ?>" method="POST">
+                                <div class="title-body">
+                                    <p><?php echo $body; ?></p>
+                                    <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here"></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" name="submit" class="btn btn-default" value="submit">Submit</button>
+                                </div>
+                            </form>
                         </div>
 
                     </div>
@@ -51,10 +54,8 @@ while ($row = $stmt->fetch()) {
         </div>
         <br>
 
-
-    <?php } ?>
-
-
+    </div>
+<?php } ?>
 
 
 
@@ -70,4 +71,5 @@ while ($row = $stmt->fetch()) {
 
 
 
-    <?php include 'layouts/common_base.php'; ?>
+
+<?php include 'layouts/common_base.php'; ?>
