@@ -97,7 +97,7 @@ if (isset($_SESSION["firstname"])) {
                         </div>
 
                         <?php echo  "<div class='btn-group'><a class='btn btn-primary' data-toggle='modal' data-target='#myModal_$id' href='#'><i class='fa fa-lg fa-edit'></i></a></div>
-            <div id='myModal_$id' class='modal fade' role='dialog'>" ?>
+                    <div id='myModal_$id' class='modal fade' role='dialog'>" ?>
                         <div class="modal-dialog">
 
                             <!-- Modal content-->
