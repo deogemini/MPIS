@@ -16,8 +16,6 @@ foreach($result as $mbunge){
 
 }
 
-
-
  ?>
 <div>
 <!--  -->
