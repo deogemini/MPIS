@@ -154,7 +154,6 @@
           <option value="Hanang">Hanang</option>
           <option value="Mbulu">Mbulu</option>
           <option value="Simanjiro">Simanjiro</option>
-
           <option value="Mtwara">Mtwara</option>
           <option value="Singida">Singida</option>
           <option value="Ruvuma">Ruvuma</option>
@@ -164,12 +163,10 @@
           <option value="Lushoto">Lushoto</option>
           <option value="Mkinga">Mkinga</option>
           <option value="Jiji la Tanga">Jiji la Tanga</option>
-
           <option value="Mji Handeni">Mji wa Handeni</option>
           <option value="Ubungo">Ubungo</option>
           <option value="Muhenza">Muhenza</option>
           <option value="Pangani">Pangani</option>
-
           <option value="Bumbuli">Bumbuli</option>
           <option value="Lindi">Lindi</option>
           <option value="Mpwapwa">Mpwapwa</option>
