@@ -38,7 +38,7 @@ while ($row = $stmt->fetch()) {
                         <form action="response.php?id=<?php echo $id; ?>" method="POST">
                             <div class="title-body">
                                 <p><?php echo $body; ?></p>
-                                <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here"></textarea>
+                                <textarea class="form-control" name="response" id="response" rows="4" placeholder="Write your feedback here" required></textarea>
                             </div>
                             <div class="modal-footer">
                                 <button type="submit" name="submit" class="btn btn-default" value="submit">Submit</button>
