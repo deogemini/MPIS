@@ -109,6 +109,9 @@
           <option value="Nzega">Nzega</option>
           <option value="Kisarawe">Kisarawe</option>
           <option value="Meatu">Meatu</option>
+          <option value="Busega">Busega</option>
+          <option value="Itilima">Itilima</option>
+          <option value="Maswa">Maswa</option>
           <option value="Kaliua">Kaliua</option>
           <option value="Igunga">Igunga</option>
           <option value="Urambo">Urambo</option>
