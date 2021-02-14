@@ -127,13 +127,57 @@
           <option value="Same">Same</option>
           <option value="Moshi">Moshi</option>
           <option value="Moshi Manispaa">Moshi Manispaa</option>
-
           <option value="Rombo">Rombo</option>
-
-
-
-
-
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Rombo">Rombo</option>
+          <option value="Itigi">Itigi</option>
+          <option value="Singida Manispaa">Singida Manispaa</option>
+          <option value="Mkalama">Mkalama</option>
+          <option value="Iramba">Iramba</option>
+          <option value="Singida">Singida</option>
+          <option value="Ikungi">Ikungi</option>
         </select>
       </div>
     </div>
