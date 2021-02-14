@@ -80,6 +80,14 @@
           <option value="Kigamboni">Kigamboni</option>
           <option value="Manyoni">Manyoni</option>
           <option value="Babati">Babati</option>
+          <option value="Babati Mji">Babati Mji</option>
+          <option value="Mbulu Mjini">Mbulu Mjini</option>
+          <option value="Hanang">Hanang</option>
+          <option value="Kiteto">Kiteto</option>
+          <option value="Hanang">Hanang</option>
+          <option value="Mbulu">Mbulu</option>
+          <option value="Simanjiro">Simanjiro</option>
+
           <option value="Mtwara">Mtwara</option>
           <option value="Singida">Singida</option>
           <option value="Ruvuma">Ruvuma</option>
