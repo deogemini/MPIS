@@ -91,7 +91,7 @@
           <option value="Jiji la Tanga">Jiji la Tanga</option>
 
           <option value="Mji Handeni">Mji wa Handeni</option>
-
+          <option value="Ubungo">Ubungo</option>
           <option value="Muhenza">Muhenza</option>
           <option value="Pangani">Pangani</option>
 
@@ -110,6 +110,19 @@
           <option value="Mjini Nzega">Mjini Nzega</option>
           <option value="tabora">Tabora</option>
           <option value="Baridi">Baridi</option>
+          <option value="Hai">Hai</option>
+          <option value="Mwanga">Mwanga</option>
+          <option value="Siha">Siha</option>
+          <option value="Same">Same</option>
+          <option value="Moshi">Moshi</option>
+          <option value="Moshi Manispaa">Moshi Manispaa</option>
+
+          <option value="Rombo">Rombo</option>
+
+
+
+
+
         </select>
       </div>
     </div>
