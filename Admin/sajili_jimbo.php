@@ -58,6 +58,8 @@
           <option value="Karatu">Karatu</option>
           <option value="Longido">Longido</option>
           <option value="Meru">Meru</option>
+          <option value="Mafinga">Mafinga</option>
+          <option value="Rungwe">Rungwe</option>
           <option value="Monduli">Monduli</option>
           <option value="Kaskazini A">Kaskazini A</option>
           <option value="Morogoro Mjini">Morogoro Mjini</option>
