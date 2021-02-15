@@ -1,137 +1,137 @@
-<?php include 'layouts/main.php'; ?>
-<?php
+<?php include 'layouts/main.php';
 include 'db.php';
-$sql = "SELECT * FROM mbunge";
+
+$sql = "SELECT * FROM jimbo";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
-$result = $stmt->fetchAll();
-foreach($result as $mbunge){
-  $mbunge->jinalakwanza;
-  $mbunge->jinalapili;
-  $mbunge->jinalamwisho;
-  $mbunge->gender;
-  $mbunge->jinalakwanza;
-  $mbunge->jinalapili;
-  $mbunge->jinalamwisho;
-
+while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+$id = $row['id'];
+$jinalajimbo = $row['jinalajimbo'];
+$mkoa = $row['mkoa'];
+$wilaya = $row['wilaya'];
+$kata = $row['kata'];
 }
-
  ?>
 <div>
-<!--  -->
-<div class="modal" tabindex="-1" role="dialog" id="edit_mbunge_modal" style="width:auto;">
+  <!--  -->
+  <div class="modal" tabindex="-1" role="dialog" id="delete_jimbo_modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Delete Jimbo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form method="post" action="delete_jimbo.php" >
+        <div class="modal-body">
+          <h4>Are you sure you want to delete all?</h4>
+        </div>
+        <input type="hidden" name="delete_jimbo_id" id="delete_jimbo_id">
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal" >No!</button>
+          <button type="submit" name="delete_jimbo" class="btn btn-secondary btn-danger btn-sm">Yes, Delete it</button>
+        </div>
+      </form>
+
+      </div>
+    </div>
+  </div>
+  <!--  -->
+<!-- modal -->
+<div class="modal" tabindex="-1" role="dialog" id="edit_jimbo_modal" style="width:auto;">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">EDIT MBUNGE</h5>
+        <h5 class="modal-title">BADILI TAARIFA ZA JIMBO</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="post" action="edit_mbunge.php" class="form-group">
+      <form method="post" action="edit_jimbo.php" class="form-group">
       <div class="modal-body">
         <h4></h4>
       </div>
-      <!-- <label for=""></label> -->
-      <input type="hidden" name="edit_mbunge_id" id="edit_mbunge_id" class="form-control">
+      <!-- <label for="">UPDATE THIS CATEGORY</label> -->
+      <input type="hidden" name="edit_jimbo_id" id="edit_jimbo_id" class="form-control">
       <div  class="row form-group">
-        <label for="">JINA KWANZA</label>
-      <input type="text" name="jinalakwanza" class="form-control" id="jinalakwanza"  value="<?php echo $mbunge->jinalakwanza;?>">
+        <label for="">JINA LA JIMBO</label>
+      <input type="text" name="jinalajimbo" class="form-control" id="jinalajimbo"  value="<?php echo $id;?>">
     </div>
     <div  class="row form-group">
-      <label for="">JINA LA PILI</label>
-    <input type="text" name="jinalapili" class="form-control" id="jinalapili" style="width:100%;" value="<?php echo $mbunge->jinalapili;?>">
+      <label for="">MKOA</label>
+    <input type="text" name="mkoa" class="form-control" id="mkoa" style="width:100%;" value="<?php echo $mkoa;?>">
   </div>
   <div  class="row form-group">
-    <label for="">JINA LA MWISHO</label>
-  <input type="text" name="jinalamwisho" class="form-control" id="jinalamwisho" style="width:100%;" value="<?php echo $mbunge->jinalamwisho;?>">
+    <label for="">WILAYA</label>
+  <input type="text" name="wilaya" class="form-control" id="wilaya" style="width:100%;" value="<?php echo $wilaya;?>">
 </div>
 <div  class="row form-group">
-  <label for="">GENDER</label>
-<input type="text" name="gender" class="form-control" id="gender" style="width:100%;" value="<?php echo $mbunge->gender;?>">
-</div>
-<div  class="row form-group">
-  <label for="">DOB</label>
-<input type="text" name="birthdate" class="form-control" id="dob"  value="<?php echo $mbunge->birthdate;?>">
-</div>
-<div  class="row form-group">
-<label for="">EMAIL</label>
-<input type="text" name="email" class="form-control" id="email" style="width:100%;" value="<?php echo $mbunge->email;?>">
-</div>
-<div  class="row form-group">
-<label for="">TELPHONE</label>
-<input type="text" name="telephone" class="form-control" id="telephone" style="width:100%;" value="<?php echo $mbunge->telephone;?>">
-</div>
-<div  class="row form-group">
-<label for="">STARTINGDATE</label>
-<input type="text" name="startingdate" class="form-control" id="startingdate" style="width:100%;" value="<?php echo $mbunge->startingdate;?>">
-</div>
-<div  class="row form-group">
-<label for="">ENDINGDATE</label>
-<input type="text" name="finishingdate" class="form-control" id="endingdate" style="width:100%;" value="<?php echo $mbunge->finishingdate;?>">
+  <label for="">KATA</label>
+<input type="text" name="kata" class="form-control" id="kata" style="width:100%;" value="<?php echo $kata;?>">
 </div>
 
       <div class="modal-footer">
         <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal" >Close</button>
-        <button type="submit" name="edit_mbunge" class="btn btn-secondary btn-success btn-sm">Save & Update</button>
+        <button type="submit" name="edit_jimbo" class="btn btn-secondary btn-success btn-sm">Save & Update</button>
       </div>
     </form>
 
     </div>
   </div>
 </div>
-<!--  -->
-  <table class="table table-bordered table-hover table-responsive" id="oneshambunge">
+<!-- end modal -->
+  <table class="table table-bordered table-hover" id="oneshajimbo">
       <thead>
         <tr>
         <th>No.</th>
-        <th>Jina la kwanza</th>
-        <th>Jina la pili</th>
-        <th>Jina la mwisho</th>
-        <th>Gender</th>
-        <th>Dob</th>
-        <th>Email</th>
-        <th>Telephone</th>
-        <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
+        <th>Jina La Jimbo</th>
+        <th>Mkoa</th>
+        <th>Wilaya</th>
+        <th>Kata</th>
+        <th>Badili</th>
+        <th>Futa</th>
       </tr>
       </thead>
       <tbody>
+        <?php
+        $sql = "SELECT * FROM jimbo";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+    while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+      $id = $row['id'];
+      $jinalajimbo = $row['jinalajimbo'];
+      $mkoa = $row['mkoa'];
+      $wilaya = $row['wilaya'];
+      $kata = $row['kata'];
+    ?>
     <tr>
-        <td><?php echo $mbunge->id; ?></td>
-        <td><?php echo $mbunge->jinalakwanza; ?></td>
-        <td><?php echo $mbunge->jinalapili; ?></td>
-        <td><?php echo $mbunge->jinalamwisho; ?></td>
-        <td><?php echo $mbunge->gender; ?></td>
-        <td><?php echo $mbunge->birthdate; ?></td>
-        <td><?php echo $mbunge->email; ?></td>
-        <td><?php echo $mbunge->telephone; ?></td>
-        <td><?php echo $mbunge->chama; ?></td>
-        <td><?php echo $mbunge->startingdate; ?></td>
-        <td><?php echo $mbunge->finishingdate; ?></td>
-        <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_mbunge_btn"><i class="fas fa-trash"></i>Edit</button>';?></td>
-        <td><?php echo '<button type="button" class="btn btn-danger btn-sm delete_mbunge"><i class="fas fa-trash"></i>Delete</button>';?></td>
+        <td><?php echo $row['id']; ?></td>
+        <td><?php echo $row['jinalajimbo']; ?></td>
+        <td><?php echo $row['mkoa']; ?></td>
+        <td><?php echo $row['wilaya']; ?></td>
+        <td><?php echo $row['kata']; ?></td>
+        <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_jimbo_btn"><i class="fas fa-trash"></i>Edit</button>';?></td>
+        <td><?php echo '<button type="button" class="btn btn-danger btn-sm deletebtn"><i class="fas fa-trash"></i>Delete</button>';?></td>
     </tr>
+    <?php
+}
+?>
 
     </tbody>
     <tfoot>
       <tr>
         <th>No.</th>
-        <th>Jina la kwanza</th>
-        <th>Jina la pili</th>
-        <th>Jina la mwisho</th>
-        <th>Gender</th>
-        <th>Dob</th>
-        <th>Email</th>
-        <th>Telephone</th>
-        <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
+        <th>Jina La Jimbo</th>
+        <th>Mkoa</th>
+        <th>Wilaya</th>
+        <th>Kata</th>
+        <th>Badili</th>
+        <th>Futa</th>
       </tr>
     </tfoot>
 </table>
-</div>
+
 
 
 
