@@ -1,24 +1,81 @@
-<?php include 'layouts/main.php'; ?>
-<?php
+<?php include 'layouts/main.php';
 include 'db.php';
-$sql = "SELECT * FROM mbunge";
+$sql = "SELECT * FROM users WHERE role = 'mbunge' ";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
-$result = $stmt->fetchAll();
-foreach($result as $mbunge){
-  $mbunge->jinalakwanza;
-  $mbunge->jinalapili;
-  $mbunge->jinalamwisho;
-  $mbunge->gender;
-  $mbunge->jinalakwanza;
-  $mbunge->jinalapili;
-  $mbunge->jinalamwisho;
-
+$row = $stmt->fetchAll();
+foreach($row as $rows){
+$rows->id;
+ $rows->firstname;
+ $rows->secondname;
+ $rows->lastname;
+$rows->gender;
+$rows->dateofbirth;
+ $rows->email;
+$rows->telephone;
+$rows->chama;
+ $rows->startingdate;
+ $rows->finishingdate;
 }
+
 
  ?>
 <div>
 <!--  -->
+
+<!--  -->
+  <table class="table table-bordered table-hover table-responsive" id="oneshambunge">
+      <thead>
+        <tr>
+        <th>No.</th>
+        <th>Jina la kwanza</th>
+        <th>Jina la pili</th>
+        <th>Jina la mwisho</th>
+        <th>Gender</th>
+        <th>Dob</th>
+        <th>Email</th>
+        <th>Telephone</th>
+        <th>Chama</th>
+        <th>Startingdate</th>
+        <th>Finishingdate</th>
+      </tr>
+      </thead>
+      <tbody>
+    <tr>
+        <td><?php echo $rows->id; ?></td>
+        <td><?php echo $rows->firstname; ?></td>
+        <td><?php echo $rows->secondname; ?></td>
+        <td><?php echo $rows->lastname; ?></td>
+        <td><?php echo $rows->jimbo; ?></td>
+        <td><?php echo $rows->gender; ?></td>
+        <td><?php echo $rows->birthdate; ?></td>
+        <td><?php echo $rows->email; ?></td>
+        <td><?php echo $rows->telephone; ?></td>
+        <td><?php echo $rows->chama; ?></td>
+        <td><?php echo $rows->startingdate; ?></td>
+        <td><?php echo $rows->finishingdate; ?></td>
+        <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_mbunge_btn"><i class="fas fa-trash"></i>Edit</button>';?></td>
+        <td><?php echo '<button type="button" class="btn btn-danger btn-sm delete_mbunge"><i class="fas fa-trash"></i>Delete</button>';?></td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>No.</th>
+        <th>Jina la kwanza</th>
+        <th>Jina la pili</th>
+        <th>Jina la mwisho</th>
+        <th>Gender</th>
+        <th>Dob</th>
+        <th>Email</th>
+        <th>Telephone</th>
+        <th>Chama</th>
+        <th>Startingdate</th>
+        <th>Finishingdate</th>
+      </tr>
+    </tfoot>
+</table>
+</div>
 <div class="modal" tabindex="-1" role="dialog" id="edit_mbunge_modal" style="width:auto;">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -80,59 +137,6 @@ foreach($result as $mbunge){
     </div>
   </div>
 </div>
-<!--  -->
-  <table class="table table-bordered table-hover table-responsive" id="oneshambunge">
-      <thead>
-        <tr>
-        <th>No.</th>
-        <th>Jina la kwanza</th>
-        <th>Jina la pili</th>
-        <th>Jina la mwisho</th>
-        <th>Gender</th>
-        <th>Dob</th>
-        <th>Email</th>
-        <th>Telephone</th>
-        <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
-      </tr>
-      </thead>
-      <tbody>
-    <tr>
-        <td><?php echo $mbunge->id; ?></td>
-        <td><?php echo $mbunge->jinalakwanza; ?></td>
-        <td><?php echo $mbunge->jinalapili; ?></td>
-        <td><?php echo $mbunge->jinalamwisho; ?></td>
-        <td><?php echo $mbunge->gender; ?></td>
-        <td><?php echo $mbunge->birthdate; ?></td>
-        <td><?php echo $mbunge->email; ?></td>
-        <td><?php echo $mbunge->telephone; ?></td>
-        <td><?php echo $mbunge->chama; ?></td>
-        <td><?php echo $mbunge->startingdate; ?></td>
-        <td><?php echo $mbunge->finishingdate; ?></td>
-        <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_mbunge_btn"><i class="fas fa-trash"></i>Edit</button>';?></td>
-        <td><?php echo '<button type="button" class="btn btn-danger btn-sm delete_mbunge"><i class="fas fa-trash"></i>Delete</button>';?></td>
-    </tr>
-
-    </tbody>
-    <tfoot>
-      <tr>
-        <th>No.</th>
-        <th>Jina la kwanza</th>
-        <th>Jina la pili</th>
-        <th>Jina la mwisho</th>
-        <th>Gender</th>
-        <th>Dob</th>
-        <th>Email</th>
-        <th>Telephone</th>
-        <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
-      </tr>
-    </tfoot>
-</table>
-</div>
-
 
 
 <?php include 'layouts/common_base.php'; ?>
