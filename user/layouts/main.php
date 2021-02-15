@@ -8,6 +8,9 @@
 
   <link rel="stylesheet" href="/MPIS/Assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/MPIS/Assets/css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
   <link href="/MPIS/Assets/plugins/dist/css/select2.min.css" rel="stylesheet" />
 </head>
 
@@ -15,7 +18,8 @@
   <!---navbar and header--->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">MEMBER OF PARLIAMENT INFORMATION SYSTEM(MPIS)</a>
+      <a class="navbar-brand" href="#">
+        MEMBER OF PARLIAMENT INFORMATION SYSTEM(MPIS)</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav Dropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

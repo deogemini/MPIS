@@ -16,7 +16,7 @@
 <body>
 
   <div class="navbarSupportedContent ">
-    <nav class="navbar navbar-expand-lg navbar-lighbg-light border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
 
       MPIS(Member of Parliament Information System)
 
@@ -28,14 +28,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="/MPIS/Admin/index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/MPIS/Admin/index.php">
+              <h3> Home</h3> <span class="sr-only">(current)</span>
+            </a>
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Logout
-            </a>
-
+            <form action="logout.php" method="POST">
+              <button type="submit" class="btn btn-danger" name="logout">Logout here</button>
+            </form>
           </li>
         </ul>
       </div>

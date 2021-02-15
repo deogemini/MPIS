@@ -1,0 +1,435 @@
+[33mcommit dda7dea42c64c1a7c69e86ff1e3cfe594a942796[m[33m ([m[1;36mHEAD -> [m[1;32mindex3[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Feb 12 12:06:54 2021 +0300
+
+    mbunge page templated imported
+
+[33mcommit 3545bff534fc5a2ef12b61bbcf83e7c94897565e[m[33m ([m[1;32mmain[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Feb 12 06:05:18 2021 +0300
+
+    change of role name from admin to mbunge
+
+[33mcommit ecc026a01930a00e8e893449ea78be1320eef059[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Feb 11 00:25:44 2021 +0300
+
+    Update issue templates
+
+[33mcommit f3f5793fdc4bcc9b1251c6839235c5310774f527[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Feb 11 00:00:24 2021 +0300
+
+    addition of contribution repository
+
+[33mcommit ddb31b0a0351ca983923bc59c6fcc91605538cdb[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Feb 10 20:50:16 2021 +0300
+
+    citizen compliments styles interface changed
+
+[33mcommit 0e80d3a0ecc635dfa7672bc3af0265b1c350fd5d[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Feb 10 08:28:59 2021 +0300
+
+     view comments developed
+
+[33mcommit d5357f77b734db069f1893fcee9736d659292aae[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Feb 10 06:43:49 2021 +0300
+
+    posting compliment into db developed
+
+[33mcommit 620fb0614c8e5a232ec0f75b3497d454edf052cc[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Feb 10 05:42:28 2021 +0300
+
+    login with roles developed
+
+[33mcommit 53be787fce55cba84b7c43c71bb033011157a956[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 8 15:14:17 2021 +0300
+
+    Admin layouts fixed
+
+[33mcommit 4bcba69407a16bf4185ebc7bcdce8ad50931bc24[m
+Merge: 779b971 a352f29
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 8 04:34:00 2021 +0300
+
+    Merge pull request #17 from deogemini/postingInterface
+    
+    Posting interface
+
+[33mcommit a352f2968b64698b40fb2039a456feeccd559c60[m[33m ([m[1;31morigin/postingInterface[m[33m, [m[1;32mpostingInterface[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 8 04:32:10 2021 +0300
+
+    compliment component added
+
+[33mcommit a64cd97d603614837c8f6cea9fb048ce8817633c[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 8 03:06:13 2021 +0300
+
+    citizen's province displaying when logged in
+
+[33mcommit 779b971b222caf479af576a7ad345461956ca9e3[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sun Feb 7 21:18:48 2021 +0300
+
+    login session fixed
+
+[33mcommit 3cd70d6dca2837333217d73b1a6a44910a268630[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sun Feb 7 16:40:52 2021 +0300
+
+    login succed
+
+[33mcommit 9c3eac73c85096c46d453238984d4a015c32f1ba[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 16:38:30 2021 +0300
+
+    interface style fixed
+
+[33mcommit 66bb8a36d15ccf6aaaf21baf1207b8bd09636c72[m
+Merge: e6a61bf 385e70e
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 15:19:36 2021 +0300
+
+    Merge pull request #16 from deogemini/registration
+    
+    registraion and login pages for users are created
+
+[33mcommit 385e70ef2f3b0b5709b39089d05a72d51fdf19d2[m[33m ([m[1;31morigin/registration[m[33m)[m
+Merge: 99725e5 e6a61bf
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 15:12:42 2021 +0300
+
+    Merge branch 'main' into registration
+
+[33mcommit 99725e555d1afea8e024cba3b303f0a3f872923b[m[33m ([m[1;32mregistration[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 14:00:23 2021 +0300
+
+    interface login and registration done
+
+[33mcommit e6a61bf731294ab2b66b8eb0acebb48f976c1588[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 11:19:25 2021 +0300
+
+    index page edited
+
+[33mcommit dd82c20c34dcbd007b64c42b03e46cf88c7c7a33[m
+Author: sarahmnadi <sarahmnadi2020@gmail.com>
+Date:   Sat Feb 6 10:55:12 2021 +0300
+
+    registraion and login pages for users are created
+
+[33mcommit 68974fca0a843511fac055fdc98e1c6aad6688f8[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Feb 6 00:20:08 2021 +0300
+
+    css changed
+
+[33mcommit 3a17c7340bbc70c79d557603f9d3b830b956e094[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Feb 5 19:39:43 2021 +0300
+
+    customized footer
+
+[33mcommit 5289e5f9f15ae966ce48d518dd425d3804ee6f58[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Feb 5 16:09:04 2021 +0300
+
+    Admin dashbutton editted
+
+[33mcommit d16471579664281a96ba9672f3760d19e3b597f1[m
+Merge: 1a62299 3f271e0
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Feb 4 18:50:51 2021 +0300
+
+    Merge pull request #15 from deogemini/viewdetails
+    
+    Viewdetails
+
+[33mcommit 3f271e05465a9c48776646bc71a4bf58f89cdd7a[m[33m ([m[1;31morigin/viewdetails[m[33m, [m[1;32mviewdetails[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Feb 4 18:44:43 2021 +0300
+
+    retrieve jimbo and display from database
+
+[33mcommit dc6c0fd8c738cad06dd3c56b5940cc1d9576596e[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Feb 4 13:36:15 2021 +0300
+
+    js plugins added
+
+[33mcommit 1a62299ea1e8f9d2120074a402f360350a530e16[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Feb 3 21:25:01 2021 +0300
+
+    default password for mbunge done
+
+[33mcommit 6bc2017ca7cf82cd7301e4e7622bed53e973259c[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Tue Feb 2 10:10:50 2021 +0300
+
+    index layout accomplished
+
+[33mcommit 84eb714dcfd4d0db3ad3781b3475befbc6830612[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 20:51:02 2021 +0300
+
+    setting user dashboard
+
+[33mcommit 8db1c0065a7151da675c20c8aca439c942531295[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 19:58:47 2021 +0300
+
+    user index created
+
+[33mcommit 646ed05ee33767a6b741f05540889a42aff8fc8d[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 15:26:32 2021 +0300
+
+    image styles eddited
+
+[33mcommit b6c9957770247b977836d72a114ee1e3db1da015[m[33m ([m[1;31morigin/onyesha-jimbo[m[33m, [m[1;32monyesha-jimbo[m[33m)[m
+Merge: c5be63b c4eb3e8
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 17:19:50 2021 +0300
+
+    Merge pull request #13 from deogemini/mainIndex
+    
+    main index editted
+
+[33mcommit c4eb3e87f19f46d0bac3eb85375492332e023803[m[33m ([m[1;31morigin/mainIndex[m[33m, [m[1;32mmainIndex[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 14:15:41 2021 +0300
+
+    main index editted
+
+[33mcommit c5be63bb394a4d49f581df9bb599cdae0b498118[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 09:00:22 2021 +0300
+
+    readmeChanges
+
+[33mcommit f1f3e64769e59471793a79552d427510db9bb7d2[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 08:59:50 2021 +0300
+
+    readmeChanges
+
+[33mcommit 52d4fd3c006af06c68efebb2586e954949774c2e[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 08:57:25 2021 +0300
+
+    delete
+
+[33mcommit 8ec1c9800ebfd24e783aa85f7b3d2e21115fd6e9[m
+Merge: 10c022f 6abaae8
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 08:55:23 2021 +0300
+
+    Merge pull request #12 from deogemini/deogemini-patch-1
+    
+    addContributionGuidelines
+
+[33mcommit 6abaae8cb6ce830e08f92bf12a6e3738d22fa0a3[m[33m ([m[1;31morigin/deogemini-patch-1[m[33m)[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 08:52:56 2021 +0300
+
+    addContributionGuidelines
+
+[33mcommit 10c022f9a75c94f8594480b420368fffec83a283[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Mon Feb 1 04:01:23 2021 +0300
+
+    database for mbunge accomplished
+
+[33mcommit 7ca8bba34bbee8c37a32fdba81cc0a4a97023ca1[m
+Merge: 7c92ef5 ef108a0
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Jan 30 19:56:10 2021 +0300
+
+    Merge pull request #11 from deogemini/databaseconnection
+    
+    Databaseconnection
+
+[33mcommit ef108a028b98a6a754282aa4fbf6350165d79742[m[33m ([m[1;31morigin/databaseconnection[m[33m, [m[1;32mdatabaseconnection[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Jan 30 16:50:30 2021 +0300
+
+    interface eddited
+
+[33mcommit 933c1b3b89508d293d5fe8a7c2c9f4eab0f575bd[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Jan 30 16:05:06 2021 +0300
+
+    first db connection
+
+[33mcommit d71231f181db7985aec423e1be5e0e9772f72e40[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Jan 30 12:43:27 2021 +0300
+
+    database connection
+
+[33mcommit 7c92ef52e70362c153c90b72a5ba03d0ae13f1e1[m
+Merge: e3023b7 38ff787
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Jan 29 21:08:11 2021 +0300
+
+    Merge pull request #10 from deogemini/addMainInterface
+    
+    Add main interface
+
+[33mcommit 38ff787942e38aefff9161e540b4fc031d95daf6[m[33m ([m[1;31morigin/addMainInterface[m[33m, [m[1;32maddMainInterface[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Jan 29 21:05:51 2021 +0300
+
+    editting interface
+
+[33mcommit 0694aaba8fbd6a8c1eca0decc5ba8dce81f1663f[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Jan 29 16:34:06 2021 +0300
+
+    indexPage developed
+
+[33mcommit e3023b74271cbd9f075d321c0cf01df2e3752573[m
+Merge: dee68d7 c031dbd
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Jan 29 04:08:34 2021 +0300
+
+    Merge pull request #9 from deogemini/addPlugin
+    
+    jquery plugin added
+
+[33mcommit c031dbdb02fba4d510abdd1fac5594fba9ada4f6[m[33m ([m[1;31morigin/addPlugin[m[33m, [m[1;32maddPlugin[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Fri Jan 29 04:07:28 2021 +0300
+
+    jquery plugin added
+
+[33mcommit dee68d7b2c984329cf7e443ac58eadbf71d44b37[m
+Merge: 8b7cf20 949fbfe
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Jan 28 22:33:08 2021 +0300
+
+    Merge pull request #8 from deogemini/featureAdded
+    
+    interfaces accomplished
+
+[33mcommit 949fbfef6067536bb0ad093cb2d6812ca098482c[m[33m ([m[1;31morigin/featureAdded[m[33m, [m[1;32mfeatureAdded[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Thu Jan 28 19:32:05 2021 +0300
+
+    interfaces accomplished
+
+[33mcommit 8b7cf20c2ad32d0e9c3ba7a87049ac0f869868ed[m
+Merge: 4d98140 8fb9501
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 27 23:08:01 2021 +0300
+
+    Merge pull request #7 from deogemini/jimboFeature
+    
+    fileAdded
+
+[33mcommit 8fb95010088a90d016353608c7289acdeba46c6b[m[33m ([m[1;31morigin/jimboFeature[m[33m, [m[1;32mjimboFeature[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 27 20:05:00 2021 +0300
+
+    fileAdded
+
+[33mcommit 4d98140835839b32c7d70eed81bf0f174a921849[m
+Merge: a607d82 7712113
+Author: SarahMnadi <51160532+SarahMnadi@users.noreply.github.com>
+Date:   Wed Jan 27 16:14:07 2021 +0300
+
+    Merge pull request #6 from deogemini/editingjimbo
+    
+    jimbo features added
+
+[33mcommit 7712113e9ef4aa140846e96bf141ad43c4509785[m[33m ([m[1;31morigin/editingjimbo[m[33m)[m
+Author: sarahmnadi <sarahmnadi2020@gmail.com>
+Date:   Wed Jan 27 16:10:16 2021 +0300
+
+    jimbo features added
+
+[33mcommit a607d821db23a97a708d608321f50dd0ec40e4fa[m
+Author: SarahMnadi <51160532+SarahMnadi@users.noreply.github.com>
+Date:   Wed Jan 27 15:25:07 2021 +0300
+
+    additions on the readme file.
+
+[33mcommit 5f0e13dc0a48509b153c8ac25e180e06bb58890c[m
+Merge: 6882f3b 3eb36e0
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sun Jan 24 08:19:55 2021 +0300
+
+    Merge pull request #5 from deogemini/AddJimboForm
+    
+    main page accomplished
+
+[33mcommit 3eb36e0bdec828bb869c992b19369558c20b6694[m[33m ([m[1;31morigin/AddJimboForm[m[33m, [m[1;32mAddJimboForm[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sun Jan 24 05:17:47 2021 +0300
+
+    main page accomplished
+
+[33mcommit 6882f3bdc8e3af418526b53dc8abe09d4a8ab3ab[m
+Merge: db13069 184a512
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sun Jan 24 02:03:48 2021 +0300
+
+    Merge pull request #4 from deogemini/AddJimboForm
+    
+    Layout featured Added
+
+[33mcommit 184a512ac904d0fcdd1c0cb65c7d6a00a46d065c[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Sat Jan 23 23:01:38 2021 +0300
+
+    Layout featured Added
+
+[33mcommit db13069d32a9c956829330e3f66d175709032a84[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 20 23:26:05 2021 +0300
+
+    Update README.md
+
+[33mcommit b8cbd88ed9dc57ce551891c39018e83e73299f83[m
+Merge: 739b789 eda4a1a
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 20 23:19:27 2021 +0300
+
+    Merge pull request #3 from deogemini/changeFileLocation
+    
+    change of file extensions
+
+[33mcommit eda4a1a9c137668aea48565ec677826787d5c417[m[33m ([m[1;31morigin/changeFileLocation[m[33m, [m[1;32mchangeFileLocation[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 20 20:16:08 2021 +0300
+
+    change of file extensions
+
+[33mcommit 739b789897adb40caaebe8cae7c5cbea356b9c89[m
+Merge: f8de993 628043f
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 20 02:47:59 2021 +0300
+
+    Merge pull request #2 from deogemini/sajiliJimbo
+    
+    Admin page created
+
+[33mcommit f8de9933280f4f62c3bf474c22841e83d12afa67[m
+Author: Deo Gemini <51180096+deogemini@users.noreply.github.com>
+Date:   Wed Jan 20 00:49:26 2021 +0300
+
+    Update README.md
+
+[33mcommit 628043f3a406f36cafa9bbc1e96d0dd5304a2453[m[33m ([m[1;31morigin/sajiliJimbo[m[33m, [m[1;32msajiliJimbo[m[33m)[m
+Author: deogemini <51180096+deogemini@users.noreply.github.com>
+Date:   Tue Jan 19 23:45:31 2021 +0300
+
+    Admin page created
