@@ -4,7 +4,7 @@ include('db.php');
 <?php
 session_start();
 if (isset($_SESSION["firstname"])) {
-    echo '<p>Login Success, Welcome.. ' . $_SESSION["firstname"] . '</p>';
+    echo '<div class="alert alert-success"><strong>Login Success</strong> Welcome.. ' . $_SESSION["firstname"] . '</div>';
 } else {
     header("location:login.php");
 }
@@ -68,7 +68,7 @@ if (isset($_SESSION["firstname"])) {
             </marquee>
 
             <?php
-            $stmt = $pdo->query('SELECT * FROM post');
+            $stmt = $pdo->query('SELECT * FROM post ORDER BY id DESC');
             while ($row = $stmt->fetch()) {
                 $id = $row->id;
                 $title = $row->title;
@@ -89,8 +89,6 @@ if (isset($_SESSION["firstname"])) {
                             </div>
                             <div class="card_info">
                                 <p style="text-align:center"><?php echo $body ?></p>
-
-
                             </div>
                         </div>
                     </div>
