@@ -42,8 +42,7 @@ $results = $stmt->execute([$jimbo,$mkoa,$wilaya,$kata,$id]);
     // // })
     // // </script>";
     // //echo mysqli_error($pdo);
-    // //header("Location:view_jimbo.php");
+    header("Location:view_jimbo.php");
     //
     // }
 }
- ?>

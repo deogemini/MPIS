@@ -8,6 +8,8 @@ $id = $_POST['delete_id'];
 $sql = "DELETE  FROM jimbo WHERE id = ? ";
 $stmt = $pdo->prepare($sql);
 $stmt->execute([$id]);
+    header("Location:index.php");
+
 
 }
  ?>
