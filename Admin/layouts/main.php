@@ -45,6 +45,6 @@
 
   <div class="row mb-5">
     <div class="col-md-3">
-      <?php include 'layouts/sidebar.php' ?>
+      <?php include 'Sidebar.php' ?>
     </div>
     <div class="col-md-9">

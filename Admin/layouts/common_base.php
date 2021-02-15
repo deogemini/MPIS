@@ -1,7 +1,7 @@
   </div>
   </div>
 
-  <?php include 'layouts/footer.php' ?>
+  <?php include 'layouts/Footer.php' ?>
   <script src="/MPIS/Assets/js/jquery.js"></script>
   <script src="/MPIS/Assets/js/jquery.dataTables.min.js"></script>
   <script src="/MPIS/Assets/js/dataTables.bootstrap.min.js"></script>
