@@ -103,7 +103,7 @@
 
             <div class="container2">
                 <button type="button" class="cancelbtn"> <a href="#">Cancel</a></button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
+                <span class="psw">Forgot <a href="/MPIS/user/reset-password.php">password?</a></span>
             </div>
 
         </form>

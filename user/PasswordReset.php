@@ -1,4 +1,5 @@
 <?php
+
 namespace Phppot;
 
 class PasswordReset
@@ -8,7 +9,7 @@ class PasswordReset
 
     function __construct()
     {
-        require_once __DIR__ . '/../lib/DataSource.php';
+        require_once __DIR__ . 'c:/xampp/../lib/DataSource.php';
         $this->ds = new DataSource();
     }
 
