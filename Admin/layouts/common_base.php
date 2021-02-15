@@ -2,16 +2,12 @@
   </div>
 
   <?php include 'layouts/Footer.php' ?>
-  <!-- <script src="/MPIS/Assets/js/jquery.js"></script> -->
-  <!-- <script src="/MPIS/Assets/js/jquery.dataTables.min.js"></script>
-  <script src="/MPIS/Assets/js/dataTables.bootstrap.min.js"></script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- <script src="/MPIS/Assets/js/bootstrap.min.js"></script> -->
-  <script src="/MPIS/Assets/plugins/dist/js/select2.min.js"></script>
+  <script src="/MPIS/Assets/js/jquery.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.23/datatables.min.css"/>
+  <script  src="/MPIS/Assets/js/bootstrap.min.js"></script>
+  <script src="/MPIS/Assets/plugins/dist/js/select2.min.js"></script>
+
   <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
 
   <script>
@@ -43,31 +39,36 @@
   });
   </script>
 
-  <script>
-  $(document).ready(function () {
-    $('.deletebtn').on('click', function() {
-      $('#delete_jimbo_modal').modal('show');
-      $tr  = $(this).closest('tr');
-      var data = $tr.children("td").map(function() {
-        return $(this).text();
+<!-- DELETE MODAL -->
+<script>
+$(document).ready(function () {
+  $('.deletebtn').on('click', function() {
+    $('#deletemodal').modal('show');
+    $tr  = $(this).closest('tr');
+    var data = $tr.children("td").map(function() {
+      return $(this).text();
 
-      }).get();
-      console.log(data);
-      $('#delete_jimbo_id').val(data[0]);
-    });
+    }).get();
+    console.log(data);
+    $('#delete_id').val(data[0]);
   });
-  </script>
+});
+</script>
 
+<script>
+$(document).ready(function () {
+  $('.delete_mbunge_btn').on('click', function() {
+    $('#delete_mbunge_modal').modal('show');
+    $tr  = $(this).closest('tr');
+    var data = $tr.children("td").map(function() {
+      return $(this).text();
 
-
-
-
-
-
-
-
-
-
+    }).get();
+    console.log(data);
+    $('#delete_mbunge_Id').val(data[0]);
+  });
+});
+</script>
 
   <script>
   $(document).ready(function () {
@@ -94,5 +95,10 @@
     });
   });
   </script>
+
+
+
+
+
   </body>
   </html>

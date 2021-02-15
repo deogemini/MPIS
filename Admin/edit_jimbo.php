@@ -5,6 +5,7 @@ include "db.php";
 if(isset($_POST['edit_jimbo'])){
   //from pop up modal
 $id = $_POST['edit_jimbo_id'];
+
 $jimbo = $_POST['jinalajimbo'];
 $mkoa = $_POST['mkoa'];
 $wilaya = $_POST['wilaya'];
