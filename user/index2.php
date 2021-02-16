@@ -90,13 +90,39 @@ if (isset($_SESSION["firstname"])) {
                             <div class="card_info">
                                 <p style="text-align:center"><?php echo $body ?></p>
                             </div>
-                        </div>
-                    </div>
+                            <?php echo  "<div class='btn-group'><a class='btn btn-primary' data-toggle='modal' data-target='#myModal_$id' href='#'><i class='fa fa-lg fa-edit'></i></a></div>
+             <div id='myModal_$id' class='modal fade' role='dialog'>" ?>
+                            <div class="modal-dialog">
 
-                <?php } ?>
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Feedback view</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="response.php?id=<?php echo $id; ?>" method="POST">
+                                            <div class="title-body">
+                                                <p><?php echo $body; ?></p>
+                                                <h5><span>Mbunge anasema:</span><?php echo $response; ?></h5>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    <?php } ?>
+                    </div>
                 </div>
         </div>
     </div>
-</div>
 
-<?php include 'layouts/common_base.php'; ?>
+    <?php include 'layouts/common_base.php'; ?>

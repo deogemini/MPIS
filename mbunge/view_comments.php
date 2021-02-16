@@ -1,7 +1,7 @@
 <?php include 'layouts/main.php'; ?>
 <?php
 include('db.php');
-$stmt = $pdo->query('SELECT * FROM post');
+$stmt = $pdo->query('SELECT * FROM post ORDER BY id DESC');
 while ($row = $stmt->fetch()) {
     $id = $row->id;
     $title = $row->title;
