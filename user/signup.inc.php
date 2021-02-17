@@ -2,7 +2,7 @@
 
 include('db.php');
 
-// //  INSERT DATA
+//INSERT DATA
 $status  = "";
 if (isset($_POST['submit'])) {
     $firstname = $_POST['firstname'];
