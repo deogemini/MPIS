@@ -8,7 +8,7 @@ assignees: deogemini
 
 ---
 
-I'm always frustrated when a member of parliament wants to replay on posted compliment how will make it and to viewed at the same time by the citizen loggin the system.
+Its fractuacting when a member of parliament wants to reply on posted compliment.How to make it  viewable at the same time by the citizen whom is logged into the system.
 
 **Describe the solution you'd like**
 I would like after at the page of a member of parliament compliments to be viewed with the input for the replay and button to send the feedback
