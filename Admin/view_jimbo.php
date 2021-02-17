@@ -3,13 +3,13 @@ include 'db.php';
 
 ?>
 <div>
-  <!--  -->
+  <!-- start model -->
 
-  <!-- end modal -->
+  <!-- end model -->
   <table class="table table-bordered table-hover" id="oneshajimbo">
     <thead>
       <tr>
-        <th>No.</th>
+        <th>Namba</th>
         <th>Jina La Jimbo</th>
         <th>Mkoa</th>
         <th>Wilaya</th>
