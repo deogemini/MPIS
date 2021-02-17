@@ -1,13 +1,11 @@
 <?php include 'layouts/main.php';
 
-include('db.php');?>
+include('db.php'); ?>
 
 <?php
 
 session_start();
-if (isset($_SESSION["firstname"])) {
-    echo '<div class="alert alert-success"><strong>Login Success</strong> Welcome.. ' . $_SESSION["firstname"] . '</div>';
-} else {
+if (!isset($_SESSION["firstname"])) {
     header("location:login.php");
 }
 ?>
@@ -105,8 +103,8 @@ if (isset($_SESSION["firstname"])) {
                                     <div class="modal-body">
                                         <form action="response.php?id=<?php echo $id; ?>" method="POST">
                                             <div class="title-body">
-                                                <p><?php echo $body; ?></p>
-                                                <h5><span>Mbunge anasema:</span><?php echo $response; ?></h5>
+                                                <h5><strong>Tatizo lilitajwa:</strong> <?php echo $body; ?></h5>
+                                                <h5><strong>Mbunge anasema: </strong><?php echo $response; ?></h5>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
