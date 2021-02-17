@@ -24,6 +24,6 @@ if (isset($_POST['submit'])) {
         header("Location: login.php");
         exit();
 
-        $status = "Your data was sent";
+        $status = "data sent";
     }
 }
