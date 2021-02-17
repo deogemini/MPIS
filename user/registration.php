@@ -10,7 +10,7 @@
             <input class="form-control" type="text" placeholder="Weka jina la kwanza" name="firstname" required>
         </div>
         <div class="form-group">
-            <label for="lname"><b>Jina la pili</b></label>
+            <label for="lname"><b>Jina la kati</b></label>
             <input class="form-control" type="text" placeholder="Weka jina la pili" name="secondname">
         </div>
 
@@ -23,7 +23,8 @@
             <label for="jimbo"><b>Jina la jimbo</b></label>
             <select name="jimbo" class="js-example-basic-single form-control">
                 <?php
-                include "db.php";  // Using database connection file here
+                include "db.php"; 
+                // Using database connection file here
                 $stmt = $pdo->query('SELECT jinalajimbo FROM jimbo');
                 while ($row = $stmt->fetch()) {
                     echo "<option value=" . $row->jinalajimbo . ">" . $row->jinalajimbo . "</option>";
@@ -45,14 +46,6 @@
             <label for="psw"><b>Password</b></label>
             <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
         </div>
-
-        <!-- <div class="form-group">
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input class="form-control" type="password" placeholder="Repeat Password" name="password_repeat">
-        </div>
-        <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-        </label> -->
 
         <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
