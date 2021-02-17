@@ -46,10 +46,7 @@
             <a class="nav-link" href="/MPIS/user/registration.php">Sign up</a>
           </li>
         </ul>
-        <!-- <form class="form-inline">
-          <input type="text" class="form-control" placeholder="Search">
-          <button class="btn btn-outline-success">Search</button>
-        </form> -->
       </div>
     </div>
   </nav>
+  </body>
