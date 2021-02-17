@@ -1,11 +1,8 @@
 <?php
 namespace Phppot;
-
 class PasswordReset
 {
-
     private $ds;
-
     function __construct()
     {
         require_once __DIR__ . '/../lib/DataSource.php';
@@ -48,6 +45,6 @@ class PasswordReset
         $paramValue = array(
             $recoveryToken
         );
-        $this->ds->execute($query, $paramType, $paramValue);
+          $this->ds->execute($query, $paramType, $paramValue);
     }
 }
