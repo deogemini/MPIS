@@ -1,7 +1,9 @@
 <?php include 'layouts/main.php';
-include('db.php');
-?>
+
+include('db.php');?>
+
 <?php
+
 session_start();
 if (isset($_SESSION["firstname"])) {
     echo '<div class="alert alert-success"><strong>Login Success</strong> Welcome.. ' . $_SESSION["firstname"] . '</div>';
@@ -20,7 +22,7 @@ if (isset($_SESSION["firstname"])) {
                 $stmt = $pdo->prepare($sql);
                 $stmt->execute(["firstname" => $firstname]);
                 while ($row = $stmt->fetch())
-                    echo '<h1> <b>Karibu Jimbo la .... </b><span style="text-transform:uppercase"> <b>' . $row->jimbo . "</span></b></h1>";
+                    echo '<h1> <b>Karibu Jimbo la . </b><span style="text-transform:uppercase"> <b>' . $row->jimbo . "</span></b></h1>";
             }
             ?>
         </div>
@@ -43,13 +45,13 @@ if (isset($_SESSION["firstname"])) {
                     <div class="form-group">
                         <label>Category</label>
                         <select name="category" class="form-control" id="category" class="js-example-basic-single form-control" required>
-                            <option value="maji">Maji</option>
-                            <option value="ardhi">Ardhi</option>
-                            <option value="kilimo">Kilimo</option>
-                            <option value="afya">Afya</option>
-                            <option value="elimu">Elimu</option>
-                            <option value="biashara">Biashara</option>
-                            <option value="miundombinu">miundombinu</option>
+                            <option value="Maji">Maji</option>
+                            <option value="Ardhi">Ardhi</option>
+                            <option value="Kilimo">Kilimo</option>
+                            <option value="Afya">Afya</option>
+                            <option value="Elimu">Elimu</option>
+                            <option value="Biashara">Biashara</option>
+                            <option value="Miundombinu">miundombinu</option>
                         </select>
                     </div>
                     <div class="form-group">
