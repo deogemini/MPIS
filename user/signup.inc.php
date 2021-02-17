@@ -2,7 +2,7 @@
 
 include('db.php');
 
-// //  INSERT DATA
+//INSERT DATA
 $status  = "";
 if (isset($_POST['submit'])) {
     $firstname = $_POST['firstname'];
@@ -24,6 +24,6 @@ if (isset($_POST['submit'])) {
         header("Location: login.php");
         exit();
 
-        $status = "Your data was sent";
+        $status = "data sent";
     }
 }

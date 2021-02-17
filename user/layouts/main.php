@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MainPage</title>
-
   <link rel="stylesheet" href="/MPIS/Assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/MPIS/Assets/css/custom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,10 +45,7 @@
             <a class="nav-link" href="/MPIS/user/registration.php">Sign up</a>
           </li>
         </ul>
-        <!-- <form class="form-inline">
-          <input type="text" class="form-control" placeholder="Search">
-          <button class="btn btn-outline-success">Search</button>
-        </form> -->
       </div>
     </div>
   </nav>
+  </body>

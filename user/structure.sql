@@ -1,17 +1,13 @@
 -- phpMyAdmin SQL Dump
--
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
 --
 -- Database: `forgot-password-reset`
 --
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `tbl_member`
 --
@@ -43,13 +39,11 @@ CREATE TABLE `tbl_password_reset` (
 --
 -- Indexes for dumped tables
 --
-
 --
 -- Indexes for table `tbl_member`
 --
 ALTER TABLE `tbl_member`
   ADD PRIMARY KEY (`id`);
-
 --
 -- Indexes for table `tbl_password_reset`
 --
@@ -59,13 +53,11 @@ ALTER TABLE `tbl_password_reset`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
 --
 -- AUTO_INCREMENT for table `tbl_member`
 --
 ALTER TABLE `tbl_member`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-
 --
 -- AUTO_INCREMENT for table `tbl_password_reset`
 --

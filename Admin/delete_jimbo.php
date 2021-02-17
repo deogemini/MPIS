@@ -10,3 +10,4 @@ if (isset($_POST['submit'])) {
     $stmt->execute([$id]);
     header("Location:index.php");
 }
+?>
