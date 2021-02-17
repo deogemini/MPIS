@@ -25,6 +25,13 @@ include 'db.php';
       $stmt->execute();
       $result = $stmt->fetchAll();
       foreach ($result as $majimbo) {
+        $majimbo->id;
+        $majimbo->jinalajimbo;
+        $majimbo->mkoa;
+        $majimbo->wilaya;
+        $majimbo->kata;
+
+
       ?>
         <tr>
           <td><?php echo $majimbo->id; ?></td>
