@@ -52,8 +52,6 @@
             <td><?php echo $startingdate; ?></td>
             <td><?php echo $finishingdate; ?></td>
             <td><?php echo $jimbo; ?></td>
-
-
             <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_mbunge_btn"><i class="fas fa-trash"></i>Edit</button>'; ?></td>
             <td><?php echo '<button type="button" class="btn btn-danger btn-sm delete_mbunge_btn"><i class="fas fa-trash"></i>Delete</button>'; ?></td>
         </tr>
@@ -101,7 +99,7 @@
         </div>
 
         <div class="modal-body">
-          <form method="post" action="edit_mbunge.php" class="form-group">
+          <form method="post" action="edit_mbunge.php?id=<?php echo $id; ?>" class="form-group">
             <!-- <label for=""></label> -->
             <input type="hidden" name="edit_mbunge_id" id="edit_mbunge_id" class="form-control">
             <div class="row form-group">

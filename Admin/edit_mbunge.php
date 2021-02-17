@@ -50,7 +50,7 @@ $results = $stmt->execute([$firstname,$secondname,$lastname,$jimbo,$gender,$birt
     // // })
     // // </script>";
     // //echo mysqli_error($pdo);
-    header("Location:index.php");
+    header("Location:view_wabunge.php");
     //
     // }
 }
