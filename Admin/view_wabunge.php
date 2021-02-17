@@ -5,16 +5,16 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $row = $stmt->fetchAll();
 foreach($row as $rows){
-$rows->id;
+ $rows->id;
  $rows->firstname;
  $rows->secondname;
  $rows->lastname;
-$rows->gender;
-$rows->birthdate;
+ $rows->gender;
+ $rows->birthdate;
  $rows->email;
  $rows->jimbo;
-$rows->telephone;
-$rows->chama;
+ $rows->telephone;
+ $rows->chama;
  $rows->startingdate;
  $rows->finishingdate;
 }
@@ -28,20 +28,20 @@ $rows->chama;
   <table class="table table-bordered table-hover table-responsive" id="oneshajimbo">
       <thead>
         <tr>
-        <th>No.</th>
+        <th>Namba</th>
         <th>Jina la kwanza</th>
         <th>Jina la pili</th>
         <th>Jina la mwisho</th>
-        <th>Gender</th>
-        <th>Dob</th>
+        <th>Jinsia</th>
+        <th>Tarehe ya kuzaliwa</th>
         <th>Email</th>
-        <th>Telephone</th>
+        <th>Namba ya simu</th>
         <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
+        <th>Tarehe ya kuanza</th>
+        <th>Tarehe ya kumaliza</th>
         <th>Jimbo</th>
-        <th>Edit</th>
-        <th>Delete</th>
+        <th>Hariri</th>
+        <th>Futa</th>
       </tr>
       </thead>
       <tbody>
@@ -67,17 +67,17 @@ $rows->chama;
     </tbody>
     <tfoot>
       <tr>
-        <th>No.</th>
+        <th>Namba</th>
         <th>Jina la kwanza</th>
         <th>Jina la pili</th>
         <th>Jina la mwisho</th>
         <th>Gender</th>
         <th>Dob</th>
         <th>Email</th>
-        <th>Telephone</th>
+        <th>Nambari ya Simu</th>
         <th>Chama</th>
-        <th>Startingdate</th>
-        <th>Finishingdate</th>
+        <th>Tarehe ya kuanza</th>
+        <th>Tarehe ya kumaliza</th>
       </tr>
     </tfoot>
 </table>
