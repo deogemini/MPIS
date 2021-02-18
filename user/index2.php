@@ -70,7 +70,7 @@ if (!isset($_SESSION["firstname"])) {
             </marquee>
 
             <?php
-            $stmt = $pdo->query("SELECT * FROM post WHERE jimbo = '$jimbo'");
+            $stmt = $pdo->query("SELECT * FROM post WHERE jimbo = '$jimbo' ORDER BY id DESC");
             while ($row = $stmt->fetch()) {
                 $jimbo = $row->jimbo;
                 $id = $row->id;

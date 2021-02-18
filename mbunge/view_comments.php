@@ -6,7 +6,7 @@ if (isset($_SESSION["id"]))
     $id = $_SESSION['id'];
 
 
-$stmt = $pdo->query("SELECT post.id as postId, title, category, body, post.jimbo, users.jimbo, users.id as idYaMbunge FROM post, users where post.jimbo=users.jimbo and users.id= '$id'
+$stmt = $pdo->query("SELECT post.id as postId, title, category, body, post.jimbo, users.jimbo, users.id as idYaMbunge FROM post, users where post.jimbo=users.jimbo and users.id= '$id' ORDER BY post.id DESC
 ");
 
 while ($row = $stmt->fetch()) {
