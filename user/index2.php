@@ -20,7 +20,9 @@ if (!isset($_SESSION["firstname"])) {
                 $stmt = $pdo->prepare($sql);
                 $stmt->execute(["firstname" => $firstname]);
                 while ($row = $stmt->fetch())
-                    echo '<h1> <b>Karibu Jimbo la . </b><span style="text-transform:uppercase"> <b>' . $row->jimbo . "</span></b></h1>";
+                    $jimbo = $row->jimbo;
+
+                echo '<h1> <b>Karibu Jimbo la . </b><span style="text-transform:uppercase"> <b>' . $jimbo . "</span></b></h1>";
             }
             ?>
         </div>
@@ -35,7 +37,7 @@ if (!isset($_SESSION["firstname"])) {
         <div class="col-md-4" style="background-color: #bddacc;">
             <div class="wrapper">
                 <h4><strong>Post your Compliment here</strong></h4>
-                <form action="posting.php" method="POST">
+                <form action="posting.php?jimbo=<?php echo $jimbo; ?>" method="POST">
                     <div class="form-group">
                         <label for="title">Title</label>
                         <input type="text" class="form-control" name="title" required>
