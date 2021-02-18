@@ -1,9 +1,16 @@
 <?php include 'layouts/main.php'; ?>
 <?php
 include('db.php');
-$stmt = $pdo->query('SELECT * FROM post ORDER BY id DESC');
+session_start();
+if (isset($_SESSION["id"]))
+    $id = $_SESSION['id'];
+
+
+$stmt = $pdo->query("SELECT post.id as postId, title, category, body, post.jimbo, users.jimbo, users.id as idYaMbunge FROM post, users where post.jimbo=users.jimbo and users.id= '$id'
+");
+
 while ($row = $stmt->fetch()) {
-    $id = $row->id;
+    $id = $row->postId;
     $title = $row->title;
     $category = $row->category;
     $body = $row->body; ?>

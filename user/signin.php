@@ -11,19 +11,20 @@ if (isset($_POST["submit"])) {
     if (empty($firstname) || empty($password)) {
         $status = "All fields are compulsory";
     } else {
-        $sql = "SELECT role FROM users WHERE firstname='$firstname' AND  password = '$password' LIMIT 1";
+        $sql = "SELECT * FROM users WHERE firstname='$firstname' AND  password = '$password' LIMIT 1";
         $stmt = $pdo->prepare($sql);
         $stmt->execute(["firstname" => $firstname, "password" => $password]);
         $count = $stmt->rowCount();
         if ($count) {
             $row = $stmt->fetch();
             $role = $row->role;
-
+            $id = $row->id;
             if ($role == "mbunge") {
                 $_SESSION['firstname'] = $firstname;
+                $_SESSION['id'] = $id;
                 header("Location: /MPIS/mbunge/index.php");
             } else if ($role == "citizen") {
-               
+
                 $_SESSION['firstname'] = $firstname;
                 header("Location: /MPIS/user/index2.php");
             } else if ($role == "superadmin") {
