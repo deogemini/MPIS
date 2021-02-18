@@ -1,7 +1,7 @@
 <?php include('layouts/main.php'); ?>
 <?php
 session_start();
-if (!isset($_SESSION["firstname"])) {
+if (!isset($_SESSION["id"])) {
     header("location:/MPIS/user/login.php");
 }
 ?>
