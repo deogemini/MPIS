@@ -1,12 +1,5 @@
 <?php include 'layouts/main.php'; ?>
 
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/MPIS/Assets/css/contactUs.css">
-</head>
-
-<body>
 <div class="Contactcontainer">
   <div style="text-align:center">
     <h2>Contact Us</h2>
@@ -28,11 +21,10 @@
     </div>
     <div class="column">
       <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-        <label for="fname">Email Address</label>
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your name.." required>
+    
+        <label for="email">Email Address</label>
         <input type="email" id="email" name="Email" placeholder="Your email.." required>
 
         <label for="subject">Mail Us</label>
@@ -43,5 +35,5 @@
   </div>
 </div>
 
-</body>
-</html>
+<!--  footer-->
+<?php include 'layouts/common_base.php'; ?>
