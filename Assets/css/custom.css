@@ -153,12 +153,15 @@ button:hover {
   float: left;
   width: 50%;
 }
+.navbar-brand a{
+  color: black;
+}
 
 /* Add padding to container elements */
 .container {
   padding: 16px;
+  color:black
 }
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */

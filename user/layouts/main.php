@@ -39,7 +39,7 @@
             <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="/MPIS/usercontactUs.php">Contact us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/MPIS/user/registration.php">Sign up</a>
