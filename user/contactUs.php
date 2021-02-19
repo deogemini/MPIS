@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="Contactcontainer">
   <div style="text-align:center">
     <h2>Contact Us</h2>
     <p>Swing by for a phone number, Email, postal addres, or leave us a message:</p>

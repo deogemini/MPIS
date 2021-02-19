@@ -21,8 +21,8 @@
 <body>
   <!---navbar and header--->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">
+    <div class="Navcontainer">
+      <a class="navbar-brand" href="#" id="topbar">
         MEMBER OF PARLIAMENT INFORMATION SYSTEM(MPIS)</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav Dropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,13 @@
             <a class="nav-link" href="/MPIS/index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="/MPIS/index.php">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="/MPIS/index.php">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MPIS/usercontactUs.php">Contact us</a>
+            <a class="nav-link" href="/MPIS/user/contactUs.php">Contact us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/MPIS/user/registration.php">Sign up</a>
