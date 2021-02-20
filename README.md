@@ -17,9 +17,9 @@ This is the web-based system to support members of parliament  to acquire views,
 | 8   | Project plan with critical path  |
 | 9   | Implementation documentation     |
 
+---
 
-
-##CONTRIBUTION TO THIS REPOSITORY
+## CONTRIBUTION TO THIS REPOSITORY
  - Clone project in https format
  - Create new branch 
  - Push your changes to the branch
