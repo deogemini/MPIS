@@ -9,13 +9,13 @@ This is the web-based system to support members of parliament  to acquire views,
 | ----| ---------------------------------|
 | 1   | [Project Proposal](https://github.com/deogemini/MPIS/blob/main/projectProposal.docx)                 |
 | 2   | [Functional requirement](https://github.com/deogemini/MPIS/wiki/Functional-Requirements)           |
-| 3   | [Non Functional requirement](https://github.com/deogemini/MPIS/wiki/Identification-of-different-Risks)       |
+| 3   | [Non Functional requirement](https://github.com/deogemini/MPIS/wiki/Non-functional-requirements)       |
 | 4   | [Database design](https://github.com/deogemini/MPIS/blob/main/DatabaseDesign.png)                  |
 | 5   | [Project tasks](https://github.com/deogemini/MPIS/wiki/Identification-of-Tasks-and-its-dependencies)                    |
-| 6   | Project risks and way to resolve |
-| 7   | Project dependencies             |
-| 8   | Project plan with critical path  |
-| 9   | Implementation documentation     |
+| 6   | [Project risks and way to resolve](https://github.com/deogemini/MPIS/blob/main/Risk%20managment.docx) |
+| 7   | [Project dependencies](https://github.com/deogemini/MPIS/wiki/Task-dependencies)           |
+| 8   | [Project plan with critical path](https://github.com/deogemini/MPIS/blob/main/Project%20Plan%20-%20with%20it's%20%20critical%20path.pdf)  |
+
 
 ---
 
@@ -27,5 +27,17 @@ git add .
 git commit -m "your commiting sms"
 git push --set-upstream origin yourbranchname
 create pull request 
+```
+### TO RUN THE SYSTEM
+``` 
+install xammp in your machine 
+copy the cloned files into htdocs 
+start apache server in xampp pannel 
+start mysql rdbms in xampp pannel 
+import database file into your rdbms 
+database file *https://github.com/deogemini/MPIS/blob/main/mpis.sql*
+open web browser and 
+paste this *http://localhost/MPIS/*
+execute
 ```
 
