@@ -8,7 +8,7 @@ This is the web-based system to support members of parliament  to acquire views,
 | S/N | Title                            |
 | ----| ---------------------------------|
 | 1   | [Project Proposal](https://github.com/deogemini/MPIS/blob/main/projectProposal.docx)                 |
-| 2   | Functional requirement           |
+| 2   | [Functional requirement](https://github.com/deogemini/MPIS/wiki/Functional-Requirements)           |
 | 3   | Non Functional requirement       |
 | 4   | Database design                  |
 | 5   | Project tasks                    |
