@@ -21,11 +21,10 @@
     </div>
     <div class="col-md-6">
       <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-        <label for="fname">Email Address</label>
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your name.." required>
+    
+        <label for="email">Email Address</label>
         <input type="email" id="email" name="Email" placeholder="Your email.." required>
 
         <label for="subject">Mail Us</label>
