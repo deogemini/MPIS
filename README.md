@@ -11,7 +11,7 @@ This is the web-based system to support members of parliament  to acquire views,
 | 2   | [Functional requirement](https://github.com/deogemini/MPIS/wiki/Functional-Requirements)           |
 | 3   | [Non Functional requirement](https://github.com/deogemini/MPIS/wiki/Identification-of-different-Risks)       |
 | 4   | [Database design](https://github.com/deogemini/MPIS/blob/main/DatabaseDesign.png)                  |
-| 5   | Project tasks                    |
+| 5   | [Project tasks](https://github.com/deogemini/MPIS/wiki/Identification-of-Tasks-and-its-dependencies)                    |
 | 6   | Project risks and way to resolve |
 | 7   | Project dependencies             |
 | 8   | Project plan with critical path  |
