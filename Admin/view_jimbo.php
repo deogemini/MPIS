@@ -3,7 +3,7 @@
 
   ?>
   <div>
-  
+
     <table class="table table-bordered table-hover" id="oneshajimbo">
       <thead>
         <tr>
@@ -17,30 +17,28 @@
         </tr>
       </thead>
       <tbody>
-        <?php
-        $sql = "SELECT * FROM jimbo";
-        $stmt = $pdo->prepare($sql);
-        $stmt->execute();
-        $result = $stmt->fetchAll();
-        foreach ($result as $majimbo) {
-          $majimbo->id;
-          $majimbo->jinalajimbo;
-          $majimbo->mkoa;
-          $majimbo->wilaya;
-          $majimbo->kata;
+        <tr>
+          <?php
+          $sql = "SELECT * FROM jimbo";
+          $stmt = $pdo->query($sql);
+          while ($row = $stmt->fetch()) {
+            $id = $row->id;
+            $jinalajimbo = $row->jinalajimbo;
+            $mkoa = $row->mkoa;
+            $wilaya = $row->wilaya;
+            $kata =  $row->kata;
+          ?>
 
-
-        ?>
-          <tr>
-            <td><?php echo $majimbo->id; ?></td>
-            <td><?php echo $majimbo->jinalajimbo; ?></td>
-            <td><?php echo $majimbo->mkoa; ?></td>
-            <td><?php echo $majimbo->wilaya; ?></td>
-            <td><?php echo $majimbo->kata; ?></td>
+            <td><?php echo $id; ?></td>
+            <td><?php echo $jinalajimbo; ?></td>
+            <td><?php echo $mkoa; ?></td>
+            <td><?php echo $wilaya; ?></td>
+            <td><?php echo $kata; ?></td>
             <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_jimbo_btn"><i class="fas fa-trash"></i>Edit</button>'; ?></td>
             <td><?php echo '<button type="button" class="btn btn-danger btn-sm deletebtn"><i class="fas fa-trash"></i>Delete</button>'; ?></td>
-          </tr>
-        <?php } ?>
+        </tr>
+
+      <?php } ?>
       </tbody>
 
       <tfoot>
@@ -88,25 +86,25 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form method="post" action="edit_jimbo.php" class="form-group">
+          <form method="post" action="edit_jimbo.php?id=<?php echo $id; ?>" class="form-group">
             <div class="modal-body">
               <!-- <label for="">UPDATE THIS CATEGORY</label> -->
               <input type="hidden" name="edit_jimbo_id" id="edit_jimbo_id" class="form-control">
               <div class="row form-group">
                 <label for="">JINA LA JIMBO</label>
-                <input type="text" name="jinalajimbo" class="form-control" id="jinalajimbo" value="<?php echo $majimbo->jinalajimbo; ?>">
+                <input type="text" name="jinalajimbo" class="form-control" id="jinalajimbo" value="<?php echo $jinalajimbo; ?>">
               </div>
               <div class="row form-group">
                 <label for="">MKOA</label>
-                <input type="text" name="mkoa" class="form-control" id="mkoa" style="width:100%;" value="<?php echo $majimbo->mkoa; ?>">
+                <input type="text" name="mkoa" class="form-control" id="mkoa" style="width:100%;" value="<?php echo $mkoa; ?>">
               </div>
               <div class="row form-group">
                 <label for="">WILAYA</label>
-                <input type="text" name="wilaya" class="form-control" id="wilaya" style="width:100%;" value="<?php echo $majimbo->wilaya; ?>">
+                <input type="text" name="wilaya" class="form-control" id="wilaya" style="width:100%;" value="<?php echo $wilaya; ?>">
               </div>
               <div class="row form-group">
                 <label for="">KATA</label>
-                <input type="text" name="kata" class="form-control" id="kata" style="width:100%;" value="<?php echo $majimbo->kata; ?>">
+                <input type="text" name="kata" class="form-control" id="kata" style="width:100%;" value="<?php echo $kata; ?>">
               </div>
 
               <div class="modal-footer">

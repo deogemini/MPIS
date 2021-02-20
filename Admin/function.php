@@ -3,9 +3,9 @@
 function get_total_all_records()
 {
   include 'db.php';
-  $statement = $pdo->prepare("SELECT * FROM jimbo");
-  $statement->execute();
-  $result = $statement->fetchAll();
-  return $statement->rowCount();
+  $sql = "SELECT * FROM jimbo";
+  $statement = $pdo->query($sql);
+  $result = $statement->fetch();
+  return $result->rowCount();
 }
 ?>
