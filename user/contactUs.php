@@ -9,10 +9,10 @@
     <div class="col-md-6">
       Phone Call<br><br>
       Project Manager <br><br>
-      +25523455464566<br><br>
+      +255676994832<br><br>
       +255713664385<br><br>
 
-      Email: Deogmin@gmail.com<br><br><br>
+      Email: geminideogratias8@gmail.com<br><br><br>
 
       Postal address<br><br>
       University of Dar es Salaam<br>

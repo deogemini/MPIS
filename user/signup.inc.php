@@ -1,7 +1,7 @@
 <?php
 
-include('db.php');
-// include('dbconnection.php');
+//include('db.php');
+include('/dbconnection.php');
 
 //INSERT DATA
 $status  = "";
