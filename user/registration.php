@@ -23,7 +23,7 @@
             <label for="jimbo"><b>Jina la jimbo</b></label>
             <select name="jimbo" class="js-example-basic-single form-control">
                 <?php
-                include "db.php"; 
+                include "dbconnection.php"; 
                 // Using database connection file here
                 $stmt = $pdo->query('SELECT jinalajimbo FROM jimbo');
                 while ($row = $stmt->fetch()) {
