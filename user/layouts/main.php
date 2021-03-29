@@ -33,19 +33,19 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="/MPIS/index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MPIS/index.php">About us</a>
+            <a class="nav-link" href="/index.php">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MPIS/index.php">Features</a>
+            <a class="nav-link" href="/index.php">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MPIS/user/contactUs.php">Contact us</a>
+            <a class="nav-link" href="/user/contactUs.php">Contact us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MPIS/user/registration.php">Sign up</a>
+            <a class="nav-link" href="/user/registration.php">Sign up</a>
           </li>
         </ul>
       </div>
