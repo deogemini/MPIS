@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MainPage</title>
   <link rel="stylesheet" href="/Assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/MPIS/Assets/css/custom.css">
-  <link rel="stylesheet" href="/MPIS/Assets/css/contactUs.css">
+  <link rel="stylesheet" href="/Assets/css/custom.css">
+  <link rel="stylesheet" href="/Assets/css/contactUs.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-  <link href="/MPIS/Assets/plugins/dist/css/select2.min.css" rel="stylesheet" />
+  <link href="/Assets/plugins/dist/css/select2.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Our Custom CSS -->
-  <link rel="stylesheet" href="/MPIS/user/contact.css">
+  <link rel="stylesheet" href="/user/contact.css">
   <!-- Font Awesome JS -->
   <script src="/mbunge/js/bootstrap.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>

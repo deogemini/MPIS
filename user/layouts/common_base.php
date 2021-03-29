@@ -1,7 +1,7 @@
 <?php include 'footer.php' ?>
-<script src="/MPIS/Assets/js/jquery.js"></script>
-<script src="/MPIS/Assets/js/bootstrap.min.js"></script>
-<script src="/MPIS/Assets/plugins/dist/js/select2.min.js"></script>
+<script src="/Assets/js/jquery.js"></script>
+<script src="/Assets/js/bootstrap.min.js"></script>
+<script src="/Assets/plugins/dist/js/select2.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Popper.JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
