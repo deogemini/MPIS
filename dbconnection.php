@@ -1,9 +1,9 @@
 <?php
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server = $cleardb_url["us-cdbr-east-03.cleardb.com"];
-$cleardb_username = $cleardb_url["b5219994ac6ae0"];
-$cleardb_password = $cleardb_url["1a530010"];
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["password"];
 $cleardb_db = substr($cleardb_url["path"], 1);
 $active_group = 'default';
 $query_builder = TRUE;
@@ -16,6 +16,7 @@ try {
 
     //create a PDO instance
     $pdo = new PDO($dsn, $cleardb_username, $cleardb_password);
+    echo ("please");
 } catch (PDOException $e) {
     echo "DB Connection Failed:" . $e->getMessage();
 }
