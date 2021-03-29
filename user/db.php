@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'mpis';
+$host = 'sql302.epizy.com';
+$user = 'epiz_28262465';
+$password = 'CDmYyyLjZ2Zlh7A';
+$dbname = 'epiz_28262465_mpis';
 
 
 try {

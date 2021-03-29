@@ -1,7 +1,7 @@
 <?php
 session_start();
-//include("db.php");
-include("/dbconnection.php");
+include("db.php");
+// include("/dbconnection.php");
 
 $status = " ";
 if (isset($_POST["submit"])) {
