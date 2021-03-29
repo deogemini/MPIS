@@ -19,7 +19,7 @@ This is the web-based system to support members of parliament  to acquire views,
 
 ---
 
-# CONTRIBUTION TO THIS REPOSITORY
+# Contribution in this project
 ```
 git clone 
 git checkout -b "branch name"
@@ -28,7 +28,7 @@ git commit -m "your commiting sms"
 git push --set-upstream origin yourbranchname
 create pull request 
 ```
-# TO RUN THE SYSTEM FOR CONTRIBUTION
+# to run the project in local machine for contribution
 ``` 
 install xammp in your machine 
 copy the cloned files into htdocs 
