@@ -1,6 +1,6 @@
 <?php include 'layouts/main.php';
 
-include('/dbconnection.php'); ?>
+include('db.php'); ?>
 
 <?php
 

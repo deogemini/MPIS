@@ -1,7 +1,7 @@
 <?php
 session_start();
-//include("db.php");
-include("/dbconnection.php");
+include("db.php");
+//include("/dbconnection.php");
 
 $status = " ";
 if (isset($_POST["submit"])) {
@@ -29,7 +29,7 @@ if (isset($_POST["submit"])) {
                 $_SESSION['firstname'] = $firstname;
                 header("Location: /user/index2.php");
             } else if ($role == "superadmin") {
-                header("Location:/Admin/index.php");
+                header("Location:/MPIS/Admin/index.php");
             }
         } else {
             header("Location: /MPIS/user/login.php?text=$message");
