@@ -1,4 +1,4 @@
-<?php include('layouts/main.php'); ?>
+<?php include 'layouts/main.php'; ?>
 <?php
 session_start();
 if (!isset($_SESSION["id"])) {
@@ -7,8 +7,6 @@ if (!isset($_SESSION["id"])) {
 ?>
 
 <!-- Page Content  -->
-
-
 
 <h2>Mbunge akiunganishwa na MPIS</h2>
 <p>Karibu sana mbunge kwenye mfumo laini utakuwa na uwezo wa kuwa na account yako ambayo imesajiliwa

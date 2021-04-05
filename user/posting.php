@@ -1,6 +1,6 @@
 <?php
 
-include('/dbconnection.php');
+include('db.php');
 
 // //  INSERT DATA
 $status  = "";

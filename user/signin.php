@@ -23,11 +23,11 @@ if (isset($_POST["submit"])) {
             if ($role == "mbunge") {
                 $_SESSION['firstname'] = $firstname;
                 $_SESSION['id'] = $id;
-                header("Location: /mbunge/index.php");
+                header("Location: /MPIS/mbunge/index.php");
             } else if ($role == "citizen") {
 
                 $_SESSION['firstname'] = $firstname;
-                header("Location: /user/index2.php");
+                header("Location: /MPIS/user/index2.php");
             } else if ($role == "superadmin") {
                 header("Location:/MPIS/Admin/index.php");
             }

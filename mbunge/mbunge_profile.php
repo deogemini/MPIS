@@ -148,20 +148,4 @@ session_start();
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include 'layouts/common_base.php'; ?>
