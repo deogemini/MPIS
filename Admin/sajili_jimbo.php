@@ -49,9 +49,10 @@
         </select>
       </div>
       <div class="col-md-6">
-        <label>JINA LA JIMBO:</label>
+        <label>WILAYA YA JIMBO:</label>
         <select name="wilaya" class="js-example-basic-single form-control" required>
           <option value="Arusha Jiji">Arusha Jiji</option>
+          <option value="Ilala">Ilala</option>
           <option value="Arusha">Arusha</option>
           <option value="Ngorongoro">Ngorongoro</option>
           <option value="Arumeru">Arumeru</option>
@@ -95,7 +96,6 @@
           <option value="Kasulu">Kasulu</option>
           <option value="Kakonko">Kakonko</option>
           <option value="Buhingwe">Buhingwe</option>
-          <option value="Kasulu">Kasulu/option>
           <option value="Kigoma">Kigoma</option>
           <option value="Nsimbo">Nsimbo</option>
           <option value="Mpimbwe">Mpimbwe</option>
