@@ -49,7 +49,7 @@
         </select>
       </div>
       <div class="col-md-6">
-        <label>WILAYA YA JIMBO:</label>
+        <label>HALMASHAURI YA JIMBO:</label>
         <select name="wilaya" class="js-example-basic-single form-control" required>
           <option value="Arusha Jiji">Arusha Jiji</option>
           <option value="Ilala">Ilala</option>
