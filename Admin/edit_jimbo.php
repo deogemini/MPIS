@@ -8,14 +8,14 @@ $id = $_POST['edit_jimbo_id'];
 
 $jimbo = $_POST['jinalajimbo'];
 $mkoa = $_POST['mkoa'];
-$wilaya = $_POST['wilaya'];
+$halmashauri = $_POST['halmashauri'];
 $kata = $_POST['kata'];
 
 
 
-$sql = "UPDATE jimbo SET jinalajimbo = ?, mkoa = ?, wilaya = ?, kata = ? WHERE id   = ?";
+$sql = "UPDATE jimbo SET jinalajimbo = ?, mkoa = ?, halmashauri = ?, kata = ? WHERE id   = ?";
 $stmt = $pdo->prepare($sql);
-$results = $stmt->execute([$jimbo,$mkoa,$wilaya,$kata,$id]);
+$results = $stmt->execute([$jimbo,$mkoa,$halmashauri,$kata,$id]);
 
 
     // if($results){

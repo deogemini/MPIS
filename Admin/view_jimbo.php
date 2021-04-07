@@ -10,7 +10,7 @@
           <th>Namba</th>
           <th>Jina La Jimbo</th>
           <th>Mkoa</th>
-          <th>Wilaya</th>
+          <th>Halmashauri</th>
           <th>Kata</th>
           <th>Badili</th>
           <th>Futa</th>
@@ -25,14 +25,14 @@
             $id = $row->id;
             $jinalajimbo = $row->jinalajimbo;
             $mkoa = $row->mkoa;
-            $wilaya = $row->wilaya;
+            $halmashauri = $row->halmashauri;
             $kata =  $row->kata;
           ?>
 
             <td><?php echo $id; ?></td>
             <td><?php echo $jinalajimbo; ?></td>
             <td><?php echo $mkoa; ?></td>
-            <td><?php echo $wilaya; ?></td>
+            <td><?php echo $halmashauri; ?></td>
             <td><?php echo $kata; ?></td>
             <td><?php echo '<button type="button" class="btn btn-success btn-sm edit_jimbo_btn"><i class="fas fa-trash"></i>Edit</button>'; ?></td>
             <td><?php echo '<button type="button" class="btn btn-danger btn-sm deletebtn"><i class="fas fa-trash"></i>Delete</button>'; ?></td>
@@ -99,8 +99,8 @@
                 <input type="text" name="mkoa" class="form-control" id="mkoa" style="width:100%;" value="<?php echo $mkoa; ?>">
               </div>
               <div class="row form-group">
-                <label for="">WILAYA</label>
-                <input type="text" name="wilaya" class="form-control" id="wilaya" style="width:100%;" value="<?php echo $wilaya; ?>">
+                <label for="">HALMASHAURI</label>
+                <input type="text" name="wilaya" class="form-control" id="wilaya" style="width:100%;" value="<?php echo $halmashauri; ?>">
               </div>
               <div class="row form-group">
                 <label for="">KATA</label>
