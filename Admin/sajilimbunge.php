@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 
         $_SESSION['success'] = "mbunge ameshasajiliwa";
 
-        header("Location: /MPIS/Admin/index.php");
+        header("Location: /MPIS/Admin/sajili_mbunge.php?message=registered");
         exit();
 
         $status = "Your data was sent";

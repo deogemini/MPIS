@@ -6,7 +6,7 @@
 <!-- Main content Start Here -->
 <div class="container">
   <?php
-  if (isset($_GET['msg']) and $_GET['msg'] == 'reg') {
+  if (isset($_GET['message']) and $_GET['message'] == 'registered') {
     echo '<div class="alert alert-info" role="alert">
   Jimbo limesajiliwa...!!
   </div>';

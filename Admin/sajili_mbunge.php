@@ -1,7 +1,14 @@
 <?php include 'layouts/main.php'; ?>
 
 <!-- Main content Start Here -->
-<div class="main-content" data-spy="scroll">
+<div class="container">
+  <?php
+  if (isset($_GET['message']) and $_GET['message'] == 'registered') {
+    echo '<div class="alert alert-info" role="alert">
+  Mbunge ameshasajiliwa...!!
+  </div>';
+  }
+  ?>
   <h2> Sajili Mbunge</h2>
   <form action="sajilimbunge.php" method="POST">
     <div class="row">
