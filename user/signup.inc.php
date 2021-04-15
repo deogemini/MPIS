@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
         $stmt = $pdo->prepare($sql);
         $stmt->execute(["firstname" => $firstname, "secondname" => $secondname, "lastname" => $lastname, "jimbo" => $jimbo, "gender" => $gender, "password" => $password, "role" => $role]);
 
-        header("Location: login.php");
+        header("Location: login.php?message=registered");
         exit();
 
         $status = "data sent";

@@ -1,4 +1,5 @@
 <?php include 'layouts/main.php'; ?>
+<?php include 'signup.inc.php'; ?>
 
 <style>
     body {
@@ -73,44 +74,50 @@
 </style>
 </head>
 
-<body>
-    <h2 class="form-text">Please login in MPIS</h2>
-    <div class="container">
-        <form action="signin.php" method="POST">
-            <div class="form-group">
-                <label for="uname"><b>First name</b></label>
-                <input class="form-control" type="text" placeholder="Enter your First name" name="firstname" required>
-            </div>
 
-            <div class="form-group">
-                <label for="psw"><b>Password</b></label>
-                <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
-            </div>
-            <?php
-            if (isset($_GET['text'])) {
-                if ($_GET['text'] == "failed") {
+<h2 class="form-text">Please login in MPIS</h2>
+<div class="container">
+    <?php
+    if (isset($_GET['message']) and $_GET['message'] == 'registered') {
+        echo '<div class="alert alert-info" role="alert">
+  Karibu umeshasajiliwa...!!
+  </div>';
+    }
+    ?>
+    <form action="signin.php" method="POST">
+        <div class="form-group">
+            <label for="uname"><b>First name</b></label>
+            <input class="form-control" type="text" placeholder="Enter your First name" name="firstname" required>
+        </div>
 
-                    echo '<h4> Wrong Password</h4>';
-                }
+        <div class="form-group">
+            <label for="psw"><b>Password</b></label>
+            <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
+        </div>
+        <?php
+        if (isset($_GET['text'])) {
+            if ($_GET['text'] == "failed") {
+
+                echo '<h4> Wrong Password</h4>';
             }
-            ?>
+        }
+        ?>
 
-            <button type="submit" class="btn btn-info" name="submit" value="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+        <button type="submit" class="btn btn-info" name="submit" value="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
 
 
-            <div class="container2">
-                <button type="button" class="cancelbtn"> <a href="#">Cancel</a></button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
+        <div class="container2">
+            <button type="button" class="cancelbtn"> <a href="#">Cancel</a></button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
 
-        </form>
-    </div>
-</body>
+    </form>
+</div>
 
-</html>
+
 
 
 <?php include 'layouts/common_base.php'; ?>
