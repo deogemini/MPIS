@@ -1,7 +1,17 @@
 <?php include 'layouts/main.php'; ?>
+<?php include 'db.php'; ?>
+<?php include 'sajilijimbo.php'; ?>
+
 
 <!-- Main content Start Here -->
 <div class="container">
+  <?php
+  if (isset($_GET['msg']) and $_GET['msg'] == 'reg') {
+    echo '<div class="alert alert-info" role="alert">
+  Jimbo limesajiliwa...!!
+  </div>';
+  }
+  ?>
   <h2 style="text-decoration-skip: true;"> Sajili Jimbo</h2>
 
 

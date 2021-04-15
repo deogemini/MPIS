@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
         $_SESSION['success'] = "Jimbo limeshasajiliwa";
 
 
-        header("Location: /MPIS/Admin/index.php");
+        header("Location: /MPIS/Admin/sajili_jimbo.php?msg=reg");
         exit();
 
         $status = "Your data was sent";
